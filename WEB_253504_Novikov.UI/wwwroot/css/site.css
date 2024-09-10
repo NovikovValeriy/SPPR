@@ -1,4 +1,4 @@
-html {
+/*html {
   font-size: 14px;
 }
 
@@ -19,4 +19,11 @@ html {
 
 body {
   margin-bottom: 60px;
+}*/
+header, footer {
+    background-color: rgba(var(--bs-dark-rgb));
+}
+
+.nav-color {
+    color: rgba(255, 255, 255, 0.5)
 }
