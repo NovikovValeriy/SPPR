@@ -1,0 +1,6 @@
+﻿<a asp-controller="Cart" asp-action="Index" class="navbar-text ms-auto">
+    @* 00,0 руб  *@
+    @((new Random().NextDouble() * 1000).ToString("0.00")) руб
+    <i class="fa-solid fa-cart-shopping"></i>
+    (0)
+</a>
