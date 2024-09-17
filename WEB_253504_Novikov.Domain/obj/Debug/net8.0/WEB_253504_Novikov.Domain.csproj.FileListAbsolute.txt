@@ -1,0 +1,13 @@
+C:\Users\dzmitry\source\repos\5sem\SPPR\WEB_253504_Novikov\WEB_253504_Novikov.Domain\bin\Debug\net8.0\WEB_253504_Novikov.Domain.deps.json
+C:\Users\dzmitry\source\repos\5sem\SPPR\WEB_253504_Novikov\WEB_253504_Novikov.Domain\bin\Debug\net8.0\WEB_253504_Novikov.Domain.dll
+C:\Users\dzmitry\source\repos\5sem\SPPR\WEB_253504_Novikov\WEB_253504_Novikov.Domain\bin\Debug\net8.0\WEB_253504_Novikov.Domain.pdb
+C:\Users\dzmitry\source\repos\5sem\SPPR\WEB_253504_Novikov\WEB_253504_Novikov.Domain\obj\Debug\net8.0\WEB_253504_Novikov.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\dzmitry\source\repos\5sem\SPPR\WEB_253504_Novikov\WEB_253504_Novikov.Domain\obj\Debug\net8.0\WEB_253504_Novikov.Domain.AssemblyInfoInputs.cache
+C:\Users\dzmitry\source\repos\5sem\SPPR\WEB_253504_Novikov\WEB_253504_Novikov.Domain\obj\Debug\net8.0\WEB_253504_Novikov.Domain.AssemblyInfo.cs
+C:\Users\dzmitry\source\repos\5sem\SPPR\WEB_253504_Novikov\WEB_253504_Novikov.Domain\obj\Debug\net8.0\WEB_253504_Novikov.Domain.csproj.CoreCompileInputs.cache
+C:\Users\dzmitry\source\repos\5sem\SPPR\WEB_253504_Novikov\WEB_253504_Novikov.Domain\obj\Debug\net8.0\WEB_253504_Novikov.Domain.sourcelink.json
+C:\Users\dzmitry\source\repos\5sem\SPPR\WEB_253504_Novikov\WEB_253504_Novikov.Domain\obj\Debug\net8.0\WEB_253504_Novikov.Domain.dll
+C:\Users\dzmitry\source\repos\5sem\SPPR\WEB_253504_Novikov\WEB_253504_Novikov.Domain\obj\Debug\net8.0\refint\WEB_253504_Novikov.Domain.dll
+C:\Users\dzmitry\source\repos\5sem\SPPR\WEB_253504_Novikov\WEB_253504_Novikov.Domain\obj\Debug\net8.0\WEB_253504_Novikov.Domain.pdb
+C:\Users\dzmitry\source\repos\5sem\SPPR\WEB_253504_Novikov\WEB_253504_Novikov.Domain\obj\Debug\net8.0\ref\WEB_253504_Novikov.Domain.dll
+C:\Users\dzmitry\source\repos\5sem\SPPR\WEB_253504_Novikov\WEB_253504_Novikov.Domain\obj\Debug\net8.0\WEB_253504_Novikov.Domain.csproj.AssemblyReference.cache

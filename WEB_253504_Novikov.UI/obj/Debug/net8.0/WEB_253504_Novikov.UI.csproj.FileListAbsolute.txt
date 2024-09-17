@@ -225,3 +225,5 @@ C:\Users\dzmitry\source\repos\5sem\SPPR\WEB_253504_Novikov\WEB_253504_Novikov.UI
 C:\Users\dzmitry\source\repos\5sem\SPPR\WEB_253504_Novikov\WEB_253504_Novikov.UI\obj\Debug\net8.0\WEB_253504_Novikov.UI.csproj.AssemblyReference.cache
 C:\Users\dzmitry\source\repos\5sem\SPPR\WEB_253504_Novikov\WEB_253504_Novikov.UI\obj\Debug\net8.0\scopedcss\Views\Shared\_Layout(old).cshtml.rz.scp.css
 C:\Users\dzmitry\source\repos\5sem\SPPR\WEB_253504_Novikov\WEB_253504_Novikov.UI\obj\Debug\net8.0\WEB_2535.8F505AC0.Up2Date
+C:\Users\dzmitry\source\repos\5sem\SPPR\WEB_253504_Novikov\WEB_253504_Novikov.UI\bin\Debug\net8.0\WEB_253504_Novikov.Domain.dll
+C:\Users\dzmitry\source\repos\5sem\SPPR\WEB_253504_Novikov\WEB_253504_Novikov.UI\bin\Debug\net8.0\WEB_253504_Novikov.Domain.pdb

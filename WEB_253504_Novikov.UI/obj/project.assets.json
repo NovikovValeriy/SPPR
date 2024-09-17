@@ -1994,6 +1994,19 @@
             "rid": "win"
           }
         }
+      },
+      "WEB_253504_Novikov.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "Microsoft.VisualStudio.Web.CodeGeneration.Design": "8.0.4"
+        },
+        "compile": {
+          "bin/placeholder/WEB_253504_Novikov.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/WEB_253504_Novikov.Domain.dll": {}
+        }
       }
     }
   },
@@ -5696,11 +5709,17 @@
         "system.windows.extensions.nuspec",
         "useSharedDesignerContext.txt"
       ]
+    },
+    "WEB_253504_Novikov.Domain/1.0.0": {
+      "type": "project",
+      "path": "../WEB_253504_Novikov.Domain/WEB_253504_Novikov.Domain.csproj",
+      "msbuildProject": "../WEB_253504_Novikov.Domain/WEB_253504_Novikov.Domain.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net8.0": [
-      "Microsoft.VisualStudio.Web.CodeGeneration.Design >= 8.0.4"
+      "Microsoft.VisualStudio.Web.CodeGeneration.Design >= 8.0.4",
+      "WEB_253504_Novikov.Domain >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -5735,7 +5754,11 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\dzmitry\\source\\repos\\5sem\\SPPR\\WEB_253504_Novikov\\WEB_253504_Novikov.Domain\\WEB_253504_Novikov.Domain.csproj": {
+              "projectPath": "C:\\Users\\dzmitry\\source\\repos\\5sem\\SPPR\\WEB_253504_Novikov\\WEB_253504_Novikov.Domain\\WEB_253504_Novikov.Domain.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
