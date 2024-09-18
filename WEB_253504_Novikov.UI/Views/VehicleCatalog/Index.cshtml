@@ -27,10 +27,9 @@
             <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle"
                    data-bs-toggle="dropdown"
-                   href="#"
                    role="button"
                    aria-expanded="false">
-                    @ViewData["currentCategory"]
+                    @ViewData["currentVehicleType"]
                 </a>
                 <ul class="dropdown-menu">
                     <li>
@@ -69,40 +68,12 @@
             </div>
         }
     </div>
-    <nav aria-label="Page navigation example">
-        <ul class="pagination">
-            <li class="page-item">
-                <a 
-                    class="page-link" 
-                    aria-label="Previous" 
-                    asp-controller="VehicleCatalog" 
-                    asp-action="Index"
-                    asp-route-vehicleType="@ViewData["currentCategoryNormalized"]"
-                    asp-route-pageNo="@((Model.ProductsResponse.Data.CurrentPage == 1) ? 1 : Model.ProductsResponse.Data.CurrentPage - 1)">
-                    <span aria-hidden="true">&laquo;</span>
-                </a>
-            </li>
-            @foreach (var item in Enumerable.Range(1, Model.ProductsResponse.Data.TotalPages))
-            {
-                <li class="page-item @((item == Model.ProductsResponse.Data.CurrentPage) ? "active" : "")">
-                <a class="page-link" 
-                asp-controller="VehicleCatalog" 
-                asp-action="Index" 
-                asp-route-vehicleType="@ViewData["currentCategoryNormalized"]" 
-                asp-route-pageNo="@item">@item</a></li>
-            }
-            <li class="page-item">
-                <a 
-                    class="page-link" 
-                    aria-label="Next" 
-                    asp-controller="VehicleCatalog"
-                    asp-action="Index"
-                   asp-route-vehicleType="@ViewData["currentCategoryNormalized"]"
-                   asp-route-pageNo="@((Model.ProductsResponse.Data.CurrentPage == Model.ProductsResponse.Data.TotalPages) ? Model.ProductsResponse.Data.TotalPages : Model.ProductsResponse.Data.CurrentPage + 1)">
-                    <span aria-hidden="true">&raquo;</span>
-                </a>
-            </li>
-        </ul>
-    </nav>
+    @await Component.InvokeAsync("PaginationComponent", 
+    new PaginationModel
+    {
+        CurrentVehicleTypeNormalizedName = ViewData["currentVehicleTypeNormalized"] as string,
+        CurrentPage = Model.ProductsResponse.Data.CurrentPage,
+        TotalPages = Model.ProductsResponse.Data.TotalPages
+    })
 </body>
 </html>

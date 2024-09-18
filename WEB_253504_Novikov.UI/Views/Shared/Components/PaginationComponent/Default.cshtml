@@ -1,0 +1,36 @@
+﻿@model WEB_253504_Novikov.Domain.Models.PaginationModel
+
+<nav aria-label="Page navigation example">
+    <ul class="pagination">
+        <li class="page-item">
+            <a class="page-link"
+               aria-label="Previous"
+               asp-controller="VehicleCatalog"
+               asp-action="Index"
+               asp-route-vehicleType="@Model.CurrentVehicleTypeNormalizedName"
+               asp-route-pageNo="@((Model.CurrentPage == 1) ? 1 : Model.CurrentPage - 1)">
+                <span aria-hidden="true">&laquo;</span>
+            </a>
+        </li>
+        @foreach (var item in Enumerable.Range(1, Model.TotalPages))
+        {
+            <li class="page-item @((item == Model.CurrentPage) ? "active" : "")">
+                <a class="page-link"
+                   asp-controller="VehicleCatalog"
+                   asp-action="Index"
+                   asp-route-vehicleType="@Model.CurrentVehicleTypeNormalizedName"
+                   asp-route-pageNo="@item">@item</a>
+            </li>
+        }
+        <li class="page-item">
+            <a class="page-link"
+               aria-label="Next"
+               asp-controller="VehicleCatalog"
+               asp-action="Index"
+               asp-route-vehicleType="@Model.CurrentVehicleTypeNormalizedName"
+               asp-route-pageNo="@((Model.CurrentPage == Model.TotalPages) ? Model.TotalPages : Model.CurrentPage + 1)">
+                <span aria-hidden="true">&raquo;</span>
+            </a>
+        </li>
+    </ul>
+</nav>

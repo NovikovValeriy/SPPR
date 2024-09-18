@@ -30,16 +30,16 @@ namespace WEB_253504_Novikov.UI.Controllers
             var category = new VehicleType();
             if (vehicleType == null)
             {
-                ViewData["currentCategory"] = "Все";
-                ViewData["currentCategoryNormalized"] = null;
+                ViewData["currentVehicleType"] = "Все";
+                ViewData["currentVehicleTypeNormalized"] = null;
             }
             else
             {
                 category = categories.Find(t => t.NormalizedName == vehicleType);
                 if (category == null)
                     return NotFound("No such vehicle type");
-                ViewData["currentCategory"] = category.Name;
-                ViewData["currentCategoryNormalized"] = category.NormalizedName;
+                ViewData["currentVehicleType"] = category.Name;
+                ViewData["currentVehicleTypeNormalized"] = category.NormalizedName;
             }
 
             var productResponse =
