@@ -16,7 +16,7 @@
         /// </summary>
         /// <param name="data">передаваемые данные</param>
         /// <returns></returns>
-        public static ResponseData<T> Success(T data)
+        public static ResponseData<T> Success(T? data)
         {
             return new ResponseData<T> { Data = data };
         }

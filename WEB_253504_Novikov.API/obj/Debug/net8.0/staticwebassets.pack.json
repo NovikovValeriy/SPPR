@@ -1,0 +1,77 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\dzmitry\\source\\repos\\5sem\\SPPR\\WEB_253504_Novikov\\WEB_253504_Novikov.API\\wwwroot\\Images\\crown_victoria.jpg",
+      "PackagePath": "staticwebassets\\Images\\crown_victoria.jpg"
+    },
+    {
+      "Id": "C:\\Users\\dzmitry\\source\\repos\\5sem\\SPPR\\WEB_253504_Novikov\\WEB_253504_Novikov.API\\wwwroot\\Images\\escalade.jpg",
+      "PackagePath": "staticwebassets\\Images\\escalade.jpg"
+    },
+    {
+      "Id": "C:\\Users\\dzmitry\\source\\repos\\5sem\\SPPR\\WEB_253504_Novikov\\WEB_253504_Novikov.API\\wwwroot\\Images\\explorer.jpg",
+      "PackagePath": "staticwebassets\\Images\\explorer.jpg"
+    },
+    {
+      "Id": "C:\\Users\\dzmitry\\source\\repos\\5sem\\SPPR\\WEB_253504_Novikov\\WEB_253504_Novikov.API\\wwwroot\\Images\\f150.jpg",
+      "PackagePath": "staticwebassets\\Images\\f150.jpg"
+    },
+    {
+      "Id": "C:\\Users\\dzmitry\\source\\repos\\5sem\\SPPR\\WEB_253504_Novikov\\WEB_253504_Novikov.API\\wwwroot\\Images\\granta.jpg",
+      "PackagePath": "staticwebassets\\Images\\granta.jpg"
+    },
+    {
+      "Id": "C:\\Users\\dzmitry\\source\\repos\\5sem\\SPPR\\WEB_253504_Novikov\\WEB_253504_Novikov.API\\wwwroot\\Images\\hilux.jpg",
+      "PackagePath": "staticwebassets\\Images\\hilux.jpg"
+    },
+    {
+      "Id": "C:\\Users\\dzmitry\\source\\repos\\5sem\\SPPR\\WEB_253504_Novikov\\WEB_253504_Novikov.API\\wwwroot\\Images\\kia_rio.jpg",
+      "PackagePath": "staticwebassets\\Images\\kia_rio.jpg"
+    },
+    {
+      "Id": "C:\\Users\\dzmitry\\source\\repos\\5sem\\SPPR\\WEB_253504_Novikov\\WEB_253504_Novikov.API\\wwwroot\\Images\\logan.jpg",
+      "PackagePath": "staticwebassets\\Images\\logan.jpg"
+    },
+    {
+      "Id": "C:\\Users\\dzmitry\\source\\repos\\5sem\\SPPR\\WEB_253504_Novikov\\WEB_253504_Novikov.API\\wwwroot\\Images\\mclaren.jpg",
+      "PackagePath": "staticwebassets\\Images\\mclaren.jpg"
+    },
+    {
+      "Id": "C:\\Users\\dzmitry\\source\\repos\\5sem\\SPPR\\WEB_253504_Novikov\\WEB_253504_Novikov.API\\wwwroot\\Images\\polo.jpg",
+      "PackagePath": "staticwebassets\\Images\\polo.jpg"
+    },
+    {
+      "Id": "C:\\Users\\dzmitry\\source\\repos\\5sem\\SPPR\\WEB_253504_Novikov\\WEB_253504_Novikov.API\\wwwroot\\Images\\ram.jpg",
+      "PackagePath": "staticwebassets\\Images\\ram.jpg"
+    },
+    {
+      "Id": "C:\\Users\\dzmitry\\source\\repos\\5sem\\SPPR\\WEB_253504_Novikov\\WEB_253504_Novikov.API\\wwwroot\\Images\\shelby.jpg",
+      "PackagePath": "staticwebassets\\Images\\shelby.jpg"
+    },
+    {
+      "Id": "C:\\Users\\dzmitry\\source\\repos\\5sem\\SPPR\\WEB_253504_Novikov\\WEB_253504_Novikov.API\\wwwroot\\Images\\swift.jpg",
+      "PackagePath": "staticwebassets\\Images\\swift.jpg"
+    },
+    {
+      "Id": "C:\\Users\\dzmitry\\source\\repos\\5sem\\SPPR\\WEB_253504_Novikov\\WEB_253504_Novikov.API\\wwwroot\\Images\\twingo.jpg",
+      "PackagePath": "staticwebassets\\Images\\twingo.jpg"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.WEB_253504_Novikov.API.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.WEB_253504_Novikov.API.props",
+      "PackagePath": "build\\WEB_253504_Novikov.API.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.WEB_253504_Novikov.API.props",
+      "PackagePath": "buildMultiTargeting\\WEB_253504_Novikov.API.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.WEB_253504_Novikov.API.props",
+      "PackagePath": "buildTransitive\\WEB_253504_Novikov.API.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

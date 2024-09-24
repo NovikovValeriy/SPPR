@@ -5,7 +5,9 @@ VisualStudioVersion = 17.11.35222.181
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WEB_253504_Novikov.UI", "WEB_253504_Novikov.UI\WEB_253504_Novikov.UI.csproj", "{E664C111-4C47-4B03-8CAD-639F8A3A92F1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WEB_253504_Novikov.Domain", "WEB_253504_Novikov.Domain\WEB_253504_Novikov.Domain.csproj", "{1B76EFCC-BAD3-43D3-94AE-AA359B1EF15A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WEB_253504_Novikov.Domain", "WEB_253504_Novikov.Domain\WEB_253504_Novikov.Domain.csproj", "{1B76EFCC-BAD3-43D3-94AE-AA359B1EF15A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WEB_253504_Novikov.API", "WEB_253504_Novikov.API\WEB_253504_Novikov.API.csproj", "{694FB4E8-C61D-4662-B526-A97D86AACD90}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{1B76EFCC-BAD3-43D3-94AE-AA359B1EF15A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1B76EFCC-BAD3-43D3-94AE-AA359B1EF15A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1B76EFCC-BAD3-43D3-94AE-AA359B1EF15A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{694FB4E8-C61D-4662-B526-A97D86AACD90}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{694FB4E8-C61D-4662-B526-A97D86AACD90}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{694FB4E8-C61D-4662-B526-A97D86AACD90}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{694FB4E8-C61D-4662-B526-A97D86AACD90}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
