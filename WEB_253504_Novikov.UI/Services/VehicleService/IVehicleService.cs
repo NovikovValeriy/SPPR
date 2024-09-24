@@ -29,7 +29,7 @@ namespace WEB_253504_Novikov.UI.Services.VehicleService
         /// <param name="product">объект с новыми параметрами</param>
         /// <param name="formFile">Файл изображения</param>
         /// <returns></returns>
-        public Task UpdateProductAsync(int id, Vehicle product, IFormFile? formFile);
+        public Task<ResponseData<Vehicle>> UpdateProductAsync(int id, Vehicle product, IFormFile? formFile);
 
 
         /// <summary>
@@ -37,7 +37,7 @@ namespace WEB_253504_Novikov.UI.Services.VehicleService
         /// </summary>
         /// <param name="id">Id удаляемомго объекта</param>
         /// <returns></returns>
-        public Task DeleteProductAsync(int id);
+        public Task<ResponseData<Vehicle>> DeleteProductAsync(int id);
 
 
         /// <summary>

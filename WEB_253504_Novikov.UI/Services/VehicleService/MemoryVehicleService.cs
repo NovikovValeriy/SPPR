@@ -50,7 +50,7 @@ namespace WEB_253504_Novikov.UI.Services.VehicleService
             throw new NotImplementedException();
         }
 
-        public Task DeleteProductAsync(int id)
+        public Task<ResponseData<Vehicle>> DeleteProductAsync(int id)
         {
             throw new NotImplementedException();
         }
@@ -90,7 +90,7 @@ namespace WEB_253504_Novikov.UI.Services.VehicleService
             return Task.FromResult(result);
         }
 
-        public Task UpdateProductAsync(int id, Vehicle product, IFormFile? formFile)
+        public Task<ResponseData<Vehicle>> UpdateProductAsync(int id, Vehicle product, IFormFile? formFile)
         {
             throw new NotImplementedException();
         }

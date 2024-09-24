@@ -27,7 +27,7 @@ namespace WEB_253504_Novikov.UI.Services.VehicleService
         }
         public async Task<ResponseData<Vehicle>> CreateProductAsync(Vehicle product, IFormFile? formFile)
         {
-            var uri = new Uri(_httpClient.BaseAddress.AbsoluteUri + "Dishes");
+            var uri = new Uri(_httpClient.BaseAddress.AbsoluteUri + "Vehicles");
 
             var response = await _httpClient.PostAsJsonAsync(
                 uri,
@@ -42,14 +42,32 @@ namespace WEB_253504_Novikov.UI.Services.VehicleService
             return ResponseData<Vehicle>.Error($"Объект не добавлен. Error:{response.StatusCode.ToString()}");
         }
 
-        public Task DeleteProductAsync(int id)
+        public async Task<ResponseData<Vehicle>> DeleteProductAsync(int id)
         {
-            throw new NotImplementedException();
+            var uri = new Uri(_httpClient.BaseAddress.AbsoluteUri + "Vehicles/" + id.ToString());
+
+            var response = await _httpClient.DeleteAsync(uri);
+            if (response.IsSuccessStatusCode)
+            {
+                var data = await response.Content.ReadFromJsonAsync<ResponseData<Vehicle>>(_serializerOptions);
+                return data;
+            }
+            _logger.LogError($"-----> object not deleted. Error:{response.StatusCode.ToString()}");
+            return ResponseData<Vehicle>.Error($"Объект не удален. Error:{response.StatusCode.ToString()}");
         }
 
-        public Task<ResponseData<Vehicle>> GetProductByIdAsync(int id)
+        public async Task<ResponseData<Vehicle>> GetProductByIdAsync(int id)
         {
-            throw new NotImplementedException();
+            var uri = new Uri(_httpClient.BaseAddress.AbsoluteUri + "Vehicles/" + id.ToString());
+
+            var response = await _httpClient.GetAsync(uri);
+            if (response.IsSuccessStatusCode)
+            {
+                var data = await response.Content.ReadFromJsonAsync<ResponseData<Vehicle>>(_serializerOptions);
+                return data;
+            }
+            _logger.LogError($"-----> object not aquired. Error:{response.StatusCode.ToString()}");
+            return ResponseData<Vehicle>.Error($"Объект не получен. Error:{response.StatusCode.ToString()}");
         }
 
         public async Task<ResponseData<ListModel<Vehicle>>> GetProductListAsync(string? categoryNormalizedName = null, int pageNo = 1)
@@ -88,7 +106,7 @@ namespace WEB_253504_Novikov.UI.Services.VehicleService
             return ResponseData<ListModel<Vehicle>>.Error($"Данные не получены от сервера. Error{response.StatusCode.ToString()}");
         }
 
-        public Task UpdateProductAsync(int id, Vehicle product, IFormFile? formFile)
+        public Task<ResponseData<Vehicle>> UpdateProductAsync(int id, Vehicle product, IFormFile? formFile)
         {
             throw new NotImplementedException();
         }

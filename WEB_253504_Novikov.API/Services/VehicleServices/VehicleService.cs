@@ -42,22 +42,26 @@ namespace WEB_253504_Novikov.API.Services.VehicleServices
 
         public async Task<ResponseData<Vehicle>> DeleteProductAsync(int id)
         {
+            var response = new ResponseData<Vehicle>();
             try
             {
                 var entity = _context.Vehicles.Find(id);
                 if (entity == null) throw new Exception();
                 _context.Vehicles.Remove(entity);
                 _context.SaveChanges();
-                return ResponseData<Vehicle>.Success(null);
+                response.Successfull = true;
+                return response;
             }
             catch
             {
-                return ResponseData<Vehicle>.Error("No such item");
+                response.Successfull= false;
+                return response;
             }
         }
 
         public async Task<ResponseData<Vehicle>> GetProductByIdAsync(int id)
         {
+            var response = new ResponseData<Vehicle>();
             try
             {
                 var entity = _context.Vehicles.Find(id);

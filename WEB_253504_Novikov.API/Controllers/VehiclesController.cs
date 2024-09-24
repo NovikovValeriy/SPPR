@@ -79,7 +79,9 @@ namespace WEB_253504_Novikov.API.Controllers
             }
 
             return NoContent();*/
-            return NotFound();
+            var response = await _service.UpdateProductAsync(id, vehicle, null);
+            if(response.Data == null) return NotFound();
+            return Ok(response);
         }
 
         // POST: api/Vehicles
@@ -110,7 +112,9 @@ namespace WEB_253504_Novikov.API.Controllers
             await _context.SaveChangesAsync();
 
             return NoContent();*/
-            return NotFound();
+            var response = await _service.DeleteProductAsync(id);
+            if(!response.Successfull) return NotFound();
+            return Ok(response);
         }
 
         private bool VehicleExists(int id)
