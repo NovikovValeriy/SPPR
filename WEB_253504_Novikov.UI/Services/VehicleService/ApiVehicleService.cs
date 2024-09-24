@@ -106,9 +106,21 @@ namespace WEB_253504_Novikov.UI.Services.VehicleService
             return ResponseData<ListModel<Vehicle>>.Error($"Данные не получены от сервера. Error{response.StatusCode.ToString()}");
         }
 
-        public Task<ResponseData<Vehicle>> UpdateProductAsync(int id, Vehicle product, IFormFile? formFile)
+        public async Task<ResponseData<Vehicle>> UpdateProductAsync(int id, Vehicle product, IFormFile? formFile)
         {
-            throw new NotImplementedException();
+            var uri = new Uri(_httpClient.BaseAddress.AbsoluteUri + "Vehicles/" + id.ToString());
+
+            var response = await _httpClient.PutAsJsonAsync(
+                uri, 
+                product, 
+                _serializerOptions);
+            if (response.IsSuccessStatusCode)
+            {
+                var data = await response.Content.ReadFromJsonAsync<ResponseData<Vehicle>>(_serializerOptions);
+                return data;
+            }
+            _logger.LogError($"-----> object not deleted. Error:{response.StatusCode.ToString()}");
+            return ResponseData<Vehicle>.Error($"Объект не удален. Error:{response.StatusCode.ToString()}");
         }
     }
 }

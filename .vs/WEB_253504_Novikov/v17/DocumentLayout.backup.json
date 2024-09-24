@@ -3,20 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\dzmitry\\source\\repos\\5sem\\SPPR\\WEB_253504_Novikov\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E664C111-4C47-4B03-8CAD-639F8A3A92F1}|WEB_253504_Novikov.UI\\WEB_253504_Novikov.UI.csproj|c:\\users\\dzmitry\\source\\repos\\5sem\\sppr\\web_253504_novikov\\web_253504_novikov.ui\\services\\vehicleservice\\memoryvehicleservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E664C111-4C47-4B03-8CAD-639F8A3A92F1}|WEB_253504_Novikov.UI\\WEB_253504_Novikov.UI.csproj|solutionrelative:web_253504_novikov.ui\\services\\vehicleservice\\memoryvehicleservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{694FB4E8-C61D-4662-B526-A97D86AACD90}|WEB_253504_Novikov.API\\WEB_253504_Novikov.API.csproj|c:\\users\\dzmitry\\source\\repos\\5sem\\sppr\\web_253504_novikov\\web_253504_novikov.api\\services\\vehicleservices\\vehicleservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{694FB4E8-C61D-4662-B526-A97D86AACD90}|WEB_253504_Novikov.API\\WEB_253504_Novikov.API.csproj|solutionrelative:web_253504_novikov.api\\services\\vehicleservices\\vehicleservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E664C111-4C47-4B03-8CAD-639F8A3A92F1}|WEB_253504_Novikov.UI\\WEB_253504_Novikov.UI.csproj|c:\\users\\dzmitry\\source\\repos\\5sem\\sppr\\web_253504_novikov\\web_253504_novikov.ui\\services\\vehicleservice\\apivehicleservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E664C111-4C47-4B03-8CAD-639F8A3A92F1}|WEB_253504_Novikov.UI\\WEB_253504_Novikov.UI.csproj|solutionrelative:web_253504_novikov.ui\\services\\vehicleservice\\apivehicleservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{694FB4E8-C61D-4662-B526-A97D86AACD90}|WEB_253504_Novikov.API\\WEB_253504_Novikov.API.csproj|c:\\users\\dzmitry\\source\\repos\\5sem\\sppr\\web_253504_novikov\\web_253504_novikov.api\\controllers\\vehiclescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{694FB4E8-C61D-4662-B526-A97D86AACD90}|WEB_253504_Novikov.API\\WEB_253504_Novikov.API.csproj|solutionrelative:web_253504_novikov.api\\controllers\\vehiclescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E664C111-4C47-4B03-8CAD-639F8A3A92F1}|WEB_253504_Novikov.UI\\WEB_253504_Novikov.UI.csproj|c:\\users\\dzmitry\\source\\repos\\5sem\\sppr\\web_253504_novikov\\web_253504_novikov.ui\\services\\vehicleservice\\apivehicleservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E664C111-4C47-4B03-8CAD-639F8A3A92F1}|WEB_253504_Novikov.UI\\WEB_253504_Novikov.UI.csproj|solutionrelative:web_253504_novikov.ui\\services\\vehicleservice\\apivehicleservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{694FB4E8-C61D-4662-B526-A97D86AACD90}|WEB_253504_Novikov.API\\WEB_253504_Novikov.API.csproj|c:\\users\\dzmitry\\source\\repos\\5sem\\sppr\\web_253504_novikov\\web_253504_novikov.api\\services\\vehicleservices\\vehicleservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{694FB4E8-C61D-4662-B526-A97D86AACD90}|WEB_253504_Novikov.API\\WEB_253504_Novikov.API.csproj|solutionrelative:web_253504_novikov.api\\services\\vehicleservices\\vehicleservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E664C111-4C47-4B03-8CAD-639F8A3A92F1}|WEB_253504_Novikov.UI\\WEB_253504_Novikov.UI.csproj|c:\\users\\dzmitry\\source\\repos\\5sem\\sppr\\web_253504_novikov\\web_253504_novikov.ui\\services\\vehicleservice\\ivehicleservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -123,58 +119,45 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "MemoryVehicleService.cs",
-              "DocumentMoniker": "C:\\Users\\dzmitry\\source\\repos\\5sem\\SPPR\\WEB_253504_Novikov\\WEB_253504_Novikov.UI\\Services\\VehicleService\\MemoryVehicleService.cs",
-              "RelativeDocumentMoniker": "WEB_253504_Novikov.UI\\Services\\VehicleService\\MemoryVehicleService.cs",
-              "ToolTip": "C:\\Users\\dzmitry\\source\\repos\\5sem\\SPPR\\WEB_253504_Novikov\\WEB_253504_Novikov.UI\\Services\\VehicleService\\MemoryVehicleService.cs*",
-              "RelativeToolTip": "WEB_253504_Novikov.UI\\Services\\VehicleService\\MemoryVehicleService.cs*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAADUAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-24T14:56:37.274Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
               "Title": "ApiVehicleService.cs",
               "DocumentMoniker": "C:\\Users\\dzmitry\\source\\repos\\5sem\\SPPR\\WEB_253504_Novikov\\WEB_253504_Novikov.UI\\Services\\VehicleService\\ApiVehicleService.cs",
               "RelativeDocumentMoniker": "WEB_253504_Novikov.UI\\Services\\VehicleService\\ApiVehicleService.cs",
               "ToolTip": "C:\\Users\\dzmitry\\source\\repos\\5sem\\SPPR\\WEB_253504_Novikov\\WEB_253504_Novikov.UI\\Services\\VehicleService\\ApiVehicleService.cs",
               "RelativeToolTip": "WEB_253504_Novikov.UI\\Services\\VehicleService\\ApiVehicleService.cs",
-              "ViewState": "AgIAACcAAAAAAAAAAAAowEUAAABCAAAAAAAAAA==",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAQwEUAAABCAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-23T14:56:43.848Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "VehiclesController.cs",
               "DocumentMoniker": "C:\\Users\\dzmitry\\source\\repos\\5sem\\SPPR\\WEB_253504_Novikov\\WEB_253504_Novikov.API\\Controllers\\VehiclesController.cs",
               "RelativeDocumentMoniker": "WEB_253504_Novikov.API\\Controllers\\VehiclesController.cs",
               "ToolTip": "C:\\Users\\dzmitry\\source\\repos\\5sem\\SPPR\\WEB_253504_Novikov\\WEB_253504_Novikov.API\\Controllers\\VehiclesController.cs",
               "RelativeToolTip": "WEB_253504_Novikov.API\\Controllers\\VehiclesController.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAAFMAAAAgAAAAAAAAAA==",
+              "ViewState": "AgIAACYAAAAAAAAAAAAwwB0AAAA7AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-21T17:52:56.032Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "VehicleService.cs",
               "DocumentMoniker": "C:\\Users\\dzmitry\\source\\repos\\5sem\\SPPR\\WEB_253504_Novikov\\WEB_253504_Novikov.API\\Services\\VehicleServices\\VehicleService.cs",
               "RelativeDocumentMoniker": "WEB_253504_Novikov.API\\Services\\VehicleServices\\VehicleService.cs",
               "ToolTip": "C:\\Users\\dzmitry\\source\\repos\\5sem\\SPPR\\WEB_253504_Novikov\\WEB_253504_Novikov.API\\Services\\VehicleServices\\VehicleService.cs",
               "RelativeToolTip": "WEB_253504_Novikov.API\\Services\\VehicleServices\\VehicleService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEkAAAANAAAAAAAAAA==",
+              "ViewState": "AgIAAEEAAAAAAAAAAAAIwEEAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-21T20:44:31.377Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 9,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\dzmitry\\source\\repos\\5sem\\SPPR\\WEB_253504_Novikov\\WEB_253504_Novikov.UI\\Program.cs",
               "RelativeDocumentMoniker": "WEB_253504_Novikov.UI\\Program.cs",
@@ -186,7 +169,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 10,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\dzmitry\\source\\repos\\5sem\\SPPR\\WEB_253504_Novikov\\WEB_253504_Novikov.UI\\appsettings.json",
               "RelativeDocumentMoniker": "WEB_253504_Novikov.UI\\appsettings.json",
@@ -198,7 +181,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 11,
               "Title": "UriData.cs",
               "DocumentMoniker": "C:\\Users\\dzmitry\\source\\repos\\5sem\\SPPR\\WEB_253504_Novikov\\WEB_253504_Novikov.UI\\Models\\UriData.cs",
               "RelativeDocumentMoniker": "WEB_253504_Novikov.UI\\Models\\UriData.cs",
@@ -210,7 +193,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 8,
               "Title": "VehicleTypeService.cs",
               "DocumentMoniker": "C:\\Users\\dzmitry\\source\\repos\\5sem\\SPPR\\WEB_253504_Novikov\\WEB_253504_Novikov.API\\Services\\VehicleTypeServices\\VehicleTypeService.cs",
               "RelativeDocumentMoniker": "WEB_253504_Novikov.API\\Services\\VehicleTypeServices\\VehicleTypeService.cs",
@@ -222,7 +205,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 7,
               "Title": "VehicleTypesController.cs",
               "DocumentMoniker": "C:\\Users\\dzmitry\\source\\repos\\5sem\\SPPR\\WEB_253504_Novikov\\WEB_253504_Novikov.API\\Controllers\\VehicleTypesController.cs",
               "RelativeDocumentMoniker": "WEB_253504_Novikov.API\\Controllers\\VehicleTypesController.cs",
@@ -234,7 +217,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 5,
               "Title": "VehicleCatalogController.cs",
               "DocumentMoniker": "C:\\Users\\dzmitry\\source\\repos\\5sem\\SPPR\\WEB_253504_Novikov\\WEB_253504_Novikov.UI\\Controllers\\VehicleCatalogController.cs",
               "RelativeDocumentMoniker": "WEB_253504_Novikov.UI\\Controllers\\VehicleCatalogController.cs",
@@ -246,7 +229,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 3,
               "Title": "IVehicleService.cs",
               "DocumentMoniker": "C:\\Users\\dzmitry\\source\\repos\\5sem\\SPPR\\WEB_253504_Novikov\\WEB_253504_Novikov.UI\\Services\\VehicleService\\IVehicleService.cs",
               "RelativeDocumentMoniker": "WEB_253504_Novikov.UI\\Services\\VehicleService\\IVehicleService.cs",
@@ -259,7 +242,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 6,
               "Title": "HostingExtensions.cs",
               "DocumentMoniker": "C:\\Users\\dzmitry\\source\\repos\\5sem\\SPPR\\WEB_253504_Novikov\\WEB_253504_Novikov.UI\\Extensions\\HostingExtensions.cs",
               "RelativeDocumentMoniker": "WEB_253504_Novikov.UI\\Extensions\\HostingExtensions.cs",
@@ -271,7 +254,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 4,
               "Title": "ApiVehicleTypeService.cs",
               "DocumentMoniker": "C:\\Users\\dzmitry\\source\\repos\\5sem\\SPPR\\WEB_253504_Novikov\\WEB_253504_Novikov.UI\\Services\\VehicleTypeService\\ApiVehicleTypeService.cs",
               "RelativeDocumentMoniker": "WEB_253504_Novikov.UI\\Services\\VehicleTypeService\\ApiVehicleTypeService.cs",
@@ -283,7 +266,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 12,
               "Title": "IVehicleTypeService.cs",
               "DocumentMoniker": "C:\\Users\\dzmitry\\source\\repos\\5sem\\SPPR\\WEB_253504_Novikov\\WEB_253504_Novikov.API\\Services\\VehicleTypeServices\\IVehicleTypeService.cs",
               "RelativeDocumentMoniker": "WEB_253504_Novikov.API\\Services\\VehicleTypeServices\\IVehicleTypeService.cs",
@@ -295,7 +278,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 13,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\dzmitry\\source\\repos\\5sem\\SPPR\\WEB_253504_Novikov\\WEB_253504_Novikov.UI\\Views\\VehicleCatalog\\Index.cshtml",
               "RelativeDocumentMoniker": "WEB_253504_Novikov.UI\\Views\\VehicleCatalog\\Index.cshtml",
@@ -307,7 +290,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 15,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\dzmitry\\source\\repos\\5sem\\SPPR\\WEB_253504_Novikov\\WEB_253504_Novikov.API\\appsettings.json",
               "RelativeDocumentMoniker": "WEB_253504_Novikov.API\\appsettings.json",
@@ -319,7 +302,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 17,
               "Title": "WeatherForecastController.cs",
               "DocumentMoniker": "C:\\Users\\dzmitry\\source\\repos\\5sem\\SPPR\\WEB_253504_Novikov\\WEB_253504_Novikov.API\\Controllers\\WeatherForecastController.cs",
               "RelativeDocumentMoniker": "WEB_253504_Novikov.API\\Controllers\\WeatherForecastController.cs",
@@ -331,7 +314,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 14,
               "Title": "AppDbContext.cs",
               "DocumentMoniker": "C:\\Users\\dzmitry\\source\\repos\\5sem\\SPPR\\WEB_253504_Novikov\\WEB_253504_Novikov.API\\Data\\AppDbContext.cs",
               "RelativeDocumentMoniker": "WEB_253504_Novikov.API\\Data\\AppDbContext.cs",
@@ -343,7 +326,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 20,
               "Title": "PaginationComponent.cs",
               "DocumentMoniker": "C:\\Users\\dzmitry\\source\\repos\\5sem\\SPPR\\WEB_253504_Novikov\\WEB_253504_Novikov.UI\\Components\\PaginationComponent.cs",
               "RelativeDocumentMoniker": "WEB_253504_Novikov.UI\\Components\\PaginationComponent.cs",
@@ -355,7 +338,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 19,
               "Title": "CatalogModel.cs",
               "DocumentMoniker": "C:\\Users\\dzmitry\\source\\repos\\5sem\\SPPR\\WEB_253504_Novikov\\WEB_253504_Novikov.Domain\\Models\\CatalogModel.cs",
               "RelativeDocumentMoniker": "WEB_253504_Novikov.Domain\\Models\\CatalogModel.cs",
@@ -367,7 +350,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 21,
               "Title": "Default.cshtml",
               "DocumentMoniker": "C:\\Users\\dzmitry\\source\\repos\\5sem\\SPPR\\WEB_253504_Novikov\\WEB_253504_Novikov.UI\\Views\\Shared\\Components\\PaginationComponent\\Default.cshtml",
               "RelativeDocumentMoniker": "WEB_253504_Novikov.UI\\Views\\Shared\\Components\\PaginationComponent\\Default.cshtml",
@@ -379,7 +362,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 16,
               "Title": "launchSettings.json",
               "DocumentMoniker": "C:\\Users\\dzmitry\\source\\repos\\5sem\\SPPR\\WEB_253504_Novikov\\WEB_253504_Novikov.API\\Properties\\launchSettings.json",
               "RelativeDocumentMoniker": "WEB_253504_Novikov.API\\Properties\\launchSettings.json",
@@ -391,7 +374,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 22,
               "Title": "PaginationModel.cs",
               "DocumentMoniker": "C:\\Users\\dzmitry\\source\\repos\\5sem\\SPPR\\WEB_253504_Novikov\\WEB_253504_Novikov.Domain\\Models\\PaginationModel.cs",
               "RelativeDocumentMoniker": "WEB_253504_Novikov.Domain\\Models\\PaginationModel.cs",
@@ -403,7 +386,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 24,
               "Title": "_ViewImports.cshtml",
               "DocumentMoniker": "C:\\Users\\dzmitry\\source\\repos\\5sem\\SPPR\\WEB_253504_Novikov\\WEB_253504_Novikov.UI\\Views\\_ViewImports.cshtml",
               "RelativeDocumentMoniker": "WEB_253504_Novikov.UI\\Views\\_ViewImports.cshtml",
@@ -415,7 +398,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 18,
               "Title": "MemoryVehicleTypeService.cs",
               "DocumentMoniker": "C:\\Users\\dzmitry\\source\\repos\\5sem\\SPPR\\WEB_253504_Novikov\\WEB_253504_Novikov.UI\\Services\\VehicleTypeService\\MemoryVehicleTypeService.cs",
               "RelativeDocumentMoniker": "WEB_253504_Novikov.UI\\Services\\VehicleTypeService\\MemoryVehicleTypeService.cs",
@@ -427,7 +410,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 23,
               "Title": "Home.cs",
               "DocumentMoniker": "C:\\Users\\dzmitry\\source\\repos\\5sem\\SPPR\\WEB_253504_Novikov\\WEB_253504_Novikov.UI\\Controllers\\Home.cs",
               "RelativeDocumentMoniker": "WEB_253504_Novikov.UI\\Controllers\\Home.cs",
