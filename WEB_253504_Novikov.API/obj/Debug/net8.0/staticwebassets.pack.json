@@ -37,6 +37,10 @@
       "PackagePath": "staticwebassets\\Images\\mclaren.jpg"
     },
     {
+      "Id": "C:\\Users\\dzmitry\\source\\repos\\5sem\\SPPR\\WEB_253504_Novikov\\WEB_253504_Novikov.API\\wwwroot\\Images\\no-image.png",
+      "PackagePath": "staticwebassets\\Images\\no-image.png"
+    },
+    {
       "Id": "C:\\Users\\dzmitry\\source\\repos\\5sem\\SPPR\\WEB_253504_Novikov\\WEB_253504_Novikov.API\\wwwroot\\Images\\polo.jpg",
       "PackagePath": "staticwebassets\\Images\\polo.jpg"
     },
@@ -51,6 +55,14 @@
     {
       "Id": "C:\\Users\\dzmitry\\source\\repos\\5sem\\SPPR\\WEB_253504_Novikov\\WEB_253504_Novikov.API\\wwwroot\\Images\\swift.jpg",
       "PackagePath": "staticwebassets\\Images\\swift.jpg"
+    },
+    {
+      "Id": "C:\\Users\\dzmitry\\source\\repos\\5sem\\SPPR\\WEB_253504_Novikov\\WEB_253504_Novikov.API\\wwwroot\\Images\\test - Копировать.png",
+      "PackagePath": "staticwebassets\\Images\\test - Копировать.png"
+    },
+    {
+      "Id": "C:\\Users\\dzmitry\\source\\repos\\5sem\\SPPR\\WEB_253504_Novikov\\WEB_253504_Novikov.API\\wwwroot\\Images\\test.png",
+      "PackagePath": "staticwebassets\\Images\\test.png"
     },
     {
       "Id": "C:\\Users\\dzmitry\\source\\repos\\5sem\\SPPR\\WEB_253504_Novikov\\WEB_253504_Novikov.API\\wwwroot\\Images\\twingo.jpg",

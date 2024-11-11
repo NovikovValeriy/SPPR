@@ -87,7 +87,7 @@ namespace WEB_253504_Novikov.API.Controllers
         // POST: api/Vehicles
         // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
         [HttpPost]
-        public async Task<ActionResult<Vehicle>> PostVehicle(Vehicle vehicle, IFormFile formFile)
+        public async Task<ActionResult<Vehicle>> PostVehicle([FromForm]Vehicle vehicle, [FromForm]IFormFile? formFile)
         {
             /*_context.Vehicles.Add(vehicle);
             await _context.SaveChangesAsync();
@@ -95,7 +95,7 @@ namespace WEB_253504_Novikov.API.Controllers
             return CreatedAtAction("GetVehicle", new { id = vehicle.Id }, vehicle);*/
             var response = await _service.CreateProductAsync(vehicle, formFile);
             if(response.Data == null) return NotFound();
-            return Ok(response);
+            return CreatedAtAction("PostVehicle", response);
         }
 
         // DELETE: api/Vehicles/5
@@ -117,10 +117,11 @@ namespace WEB_253504_Novikov.API.Controllers
             return Ok(response);
         }
 
-        private bool VehicleExists(int id)
+        private async Task<ActionResult<bool>> VehicleExists(int id)
         {
-            //return _context.Vehicles.Any(e => e.Id == id);
-            return false;
+            var result = await _service.GetProductByIdAsync(id);
+            if(!result.Successfull) return Ok(false);
+            return Ok(true);
         }
     }
 }

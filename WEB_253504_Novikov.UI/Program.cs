@@ -1,9 +1,10 @@
-using WEB_253504_Novikov.UI.Extensions;
+﻿using WEB_253504_Novikov.UI.Extensions;
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
+builder.Services.AddRazorPages();
 builder.RegisterCustomServices();
 
 var app = builder.Build();
@@ -26,5 +27,7 @@ app.UseAuthorization();
 app.MapControllerRoute(
     name: "default",
     pattern: "{controller=Home}/{action=Index}/{id?}");
+
+app.MapRazorPages();
 
 app.Run();

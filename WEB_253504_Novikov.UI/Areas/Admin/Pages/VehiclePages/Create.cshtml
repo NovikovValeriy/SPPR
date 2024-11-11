@@ -1,0 +1,68 @@
+﻿@page
+@model CreateModel
+
+@{
+    ViewData["Title"] = "Create";
+}
+
+<h1>Create</h1>
+
+<h4>Vehicle</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form method="post" enctype="multipart/form-data">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="Vehicle.Name" class="control-label"></label>
+                <input asp-for="Vehicle.Name" class="form-control" />
+                <span asp-validation-for="Vehicle.Name" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Vehicle.Description" class="control-label"></label>
+                <input asp-for="Vehicle.Description" class="form-control" />
+                <span asp-validation-for="Vehicle.Description" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Vehicle.Cost" class="control-label"></label>
+                <input asp-for="Vehicle.Cost" class="form-control" />
+                <span asp-validation-for="Vehicle.Cost" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Vehicle.TypeId" class="control-label">Type</label>
+                <select asp-for="Vehicle.TypeId" class="form-select">
+                    @foreach (var type in Model.VehicleTypes)
+                    {
+                        <option value="@type.Id">@type.Name</option>
+                    }
+                    @* <option selected>Open this select menu</option>
+                    <option value="1">One</option>
+                    <option value="2">Two</option>
+                    <option value="3">Three</option> *@
+                </select>
+            </div>
+            <div class="form-group">
+                @* <label asp-for="Vehicle.ImagePath" class="control-label"></label>
+                <input asp-for="Vehicle.ImagePath" class="form-control" />
+                <span asp-validation-for="Vehicle.ImagePath" class="text-danger"></span> *@
+                <label class="control-label">Image</label>
+                <div class="input-group">
+                    <input asp-for="Image" type="file" class="form-control" id="inputGroupFile04" aria-describedby="inputGroupFileAddon04" aria-label="Upload">
+                </div>
+            </div>
+            @* <div class="form-group">
+                <label asp-for="Vehicle.ImageMime" class="control-label"></label>
+                <input asp-for="Vehicle.ImageMime" class="form-control" />
+                <span asp-validation-for="Vehicle.ImageMime" class="text-danger"></span>
+            </div> *@
+            <div class="form-group">
+                <input type="submit" value="Create" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-page="Index">Back to List</a>
+</div>
+

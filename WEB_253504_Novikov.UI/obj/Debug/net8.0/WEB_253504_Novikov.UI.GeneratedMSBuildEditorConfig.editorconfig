@@ -26,6 +26,34 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Users\dzmitry\source\repos\5sem\SPPR\WEB_253504_Novikov\WEB_253504_Novikov.UI
 build_property._RazorSourceGeneratorDebug = 
 
+[C:/Users/dzmitry/source/repos/5sem/SPPR/WEB_253504_Novikov/WEB_253504_Novikov.UI/Areas/Admin/Pages/VehiclePages/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cUGFnZXNcVmVoaWNsZVBhZ2VzXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/dzmitry/source/repos/5sem/SPPR/WEB_253504_Novikov/WEB_253504_Novikov.UI/Areas/Admin/Pages/VehiclePages/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cUGFnZXNcVmVoaWNsZVBhZ2VzXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/dzmitry/source/repos/5sem/SPPR/WEB_253504_Novikov/WEB_253504_Novikov.UI/Areas/Admin/Pages/VehiclePages/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cUGFnZXNcVmVoaWNsZVBhZ2VzXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/dzmitry/source/repos/5sem/SPPR/WEB_253504_Novikov/WEB_253504_Novikov.UI/Areas/Admin/Pages/VehiclePages/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cUGFnZXNcVmVoaWNsZVBhZ2VzXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/dzmitry/source/repos/5sem/SPPR/WEB_253504_Novikov/WEB_253504_Novikov.UI/Areas/Admin/Pages/VehiclePages/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cUGFnZXNcVmVoaWNsZVBhZ2VzXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/dzmitry/source/repos/5sem/SPPR/WEB_253504_Novikov/WEB_253504_Novikov.UI/Areas/Admin/Pages/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cUGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/dzmitry/source/repos/5sem/SPPR/WEB_253504_Novikov/WEB_253504_Novikov.UI/Areas/Admin/Pages/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cUGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/dzmitry/source/repos/5sem/SPPR/WEB_253504_Novikov/WEB_253504_Novikov.UI/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 

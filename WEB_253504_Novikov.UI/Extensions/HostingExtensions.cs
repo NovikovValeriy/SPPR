@@ -1,4 +1,5 @@
 ﻿using WEB_253504_Novikov.UI.Models;
+using WEB_253504_Novikov.UI.Services.FileService;
 using WEB_253504_Novikov.UI.Services.VehicleService;
 using WEB_253504_Novikov.UI.Services.VehicleTypeService;
 
@@ -15,6 +16,8 @@ namespace WEB_253504_Novikov.UI.Extensions
             uriData.ApiUri = uri;
             builder.Services.AddHttpClient<IVehicleService, ApiVehicleService>(opt => opt.BaseAddress = new Uri(uriData.ApiUri));
             builder.Services.AddHttpClient<IVehicleTypeService, ApiVehicleTypeService>(opt => opt.BaseAddress = new Uri(uriData.ApiUri));
+
+            builder.Services.AddHttpClient<IFileService, ApiFileService>(opt => opt.BaseAddress = new Uri($"{uriData.ApiUri}Files"));
         }
     }
 }

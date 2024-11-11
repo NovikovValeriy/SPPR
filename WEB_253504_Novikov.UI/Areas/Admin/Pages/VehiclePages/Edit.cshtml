@@ -1,0 +1,82 @@
+﻿@page
+@model EditModel
+
+@{
+    ViewData["Title"] = "Edit";
+}
+
+<h1>Edit</h1>
+
+<h4>Vehicle</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form method="post" enctype="multipart/form-data">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="Vehicle.Id" />
+            <input type="hidden" asp-for="Vehicle.ImagePath" />
+            <input type="hidden" asp-for="Vehicle.ImageMime" />
+            <div class="form-group">
+                <label asp-for="Vehicle.Name" class="control-label"></label>
+                <input asp-for="Vehicle.Name" class="form-control" value="@Model.Vehicle.Name"/>
+                <span asp-validation-for="Vehicle.Name" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Vehicle.Description" class="control-label"></label>
+                <input asp-for="Vehicle.Description" class="form-control" value="@Model.Vehicle.Description"/>
+                <span asp-validation-for="Vehicle.Description" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Vehicle.Cost" class="control-label"></label>
+                <input asp-for="Vehicle.Cost" class="form-control" value="@Model.Vehicle.Cost"/>
+                <span asp-validation-for="Vehicle.Cost" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Vehicle.TypeId" class="control-label">Type</label>
+                <select asp-for="Vehicle.TypeId" class="form-select">
+                    @foreach (var type in Model.VehicleTypes)
+                    {
+                        if(type.Id == Model.Vehicle.TypeId)
+                        {
+                            <option value="@type.Id" selected>@type.Name</option>
+                        }
+                        else
+                        {
+                            <option value="@type.Id">@type.Name</option>
+                        }
+                    }
+                </select>
+            </div>
+            <div class="form-group">
+                <label class="control-label">Image</label>
+                <div class="input-group">
+                    <input asp-for="Image" type="file" class="form-control" id="inputGroupFile04" aria-describedby="inputGroupFileAddon04" aria-label="Upload">
+                </div>
+                @* <div class="form-check">
+                    <input asp-for="DeleteImage" class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                    <label class="form-check-label" for="flexCheckDefault">
+                        Delete image
+                    </label>
+                </div> *@
+            </div>
+            @* <div class="form-group">
+                <label asp-for="Vehicle.ImagePath" class="control-label"></label>
+                <input asp-for="Vehicle.ImagePath" class="form-control" value="@Model"/>
+                <span asp-validation-for="Vehicle.ImagePath" class="text-danger"></span>
+            </div> *@
+            @* <div class="form-group">
+                <label asp-for="Vehicle.ImageMime" class="control-label"></label>
+                <input asp-for="Vehicle.ImageMime" class="form-control" />
+                <span asp-validation-for="Vehicle.ImageMime" class="text-danger"></span>
+            </div> *@
+            <div class="form-group">
+                <input type="submit" value="Save" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-page="./Index">Back to List</a>
+</div>
+

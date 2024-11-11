@@ -21,6 +21,7 @@ namespace WEB_253504_Novikov.API.Services.VehicleServices
         {
             try
             {
+
                 if (formFile != null)
                 {
                     var path = "Images/" + formFile.FileName;
@@ -82,10 +83,11 @@ namespace WEB_253504_Novikov.API.Services.VehicleServices
             var dataList = new ListModel<Vehicle>();
             query = query
                 .Where(
-                d => categoryNormalizedName == null 
-                || 
-                d.Type.NormalizedName.Equals(categoryNormalizedName))
-                .Include(d => d.Type);
+                d => categoryNormalizedName == null
+                ||
+                _context.VehicleTypes.FirstOrDefault( t => t.Id == d.TypeId)
+                .NormalizedName.Equals(categoryNormalizedName));
+                //.Include(d => d.Type);
 
             // количество элементов в списке
             var count = await query.CountAsync(); //.Count();
@@ -134,8 +136,13 @@ namespace WEB_253504_Novikov.API.Services.VehicleServices
             {
                 var entity = _context.Vehicles.Find(id);
                 if (entity == null) throw new Exception();
-                entity = product;
-                entity.Id = id;
+                entity.Name = product.Name;
+                entity.Description = product.Description;
+                entity.Cost = product.Cost;
+                entity.TypeId = product.TypeId;
+                entity.ImagePath = product.ImagePath;
+                entity.ImageMime = product.ImageMime;
+                _context.SaveChanges();
                 return ResponseData<Vehicle>.Success(entity);
             }
             catch

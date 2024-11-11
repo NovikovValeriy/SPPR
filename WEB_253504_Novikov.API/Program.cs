@@ -25,11 +25,11 @@ var app = builder.Build();
 var scope = app.Services.CreateScope();
 var context = scope.ServiceProvider.GetRequiredService<AppDbContext>();
 
-await context.Database.EnsureDeletedAsync();
+//await context.Database.EnsureDeletedAsync();
 await context.Database.EnsureCreatedAsync();
-await context.Database.MigrateAsync();
+//await context.Database.MigrateAsync();
 
-await DbInitializer.SeedData(app);
+//await DbInitializer.SeedData(app);
 
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
