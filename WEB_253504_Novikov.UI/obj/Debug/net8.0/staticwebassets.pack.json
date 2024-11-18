@@ -5,60 +5,8 @@
       "PackagePath": "staticwebassets\\WEB_253504_Novikov.UI.bundle.scp.css"
     },
     {
-      "Id": "C:\\Users\\dzmitry\\source\\repos\\5sem\\SPPR\\WEB_253504_Novikov\\WEB_253504_Novikov.UI\\wwwroot\\Images\\crown_victoria.jpg",
-      "PackagePath": "staticwebassets\\Images\\crown_victoria.jpg"
-    },
-    {
-      "Id": "C:\\Users\\dzmitry\\source\\repos\\5sem\\SPPR\\WEB_253504_Novikov\\WEB_253504_Novikov.UI\\wwwroot\\Images\\escalade.jpg",
-      "PackagePath": "staticwebassets\\Images\\escalade.jpg"
-    },
-    {
-      "Id": "C:\\Users\\dzmitry\\source\\repos\\5sem\\SPPR\\WEB_253504_Novikov\\WEB_253504_Novikov.UI\\wwwroot\\Images\\explorer.jpg",
-      "PackagePath": "staticwebassets\\Images\\explorer.jpg"
-    },
-    {
-      "Id": "C:\\Users\\dzmitry\\source\\repos\\5sem\\SPPR\\WEB_253504_Novikov\\WEB_253504_Novikov.UI\\wwwroot\\Images\\f150.jpg",
-      "PackagePath": "staticwebassets\\Images\\f150.jpg"
-    },
-    {
-      "Id": "C:\\Users\\dzmitry\\source\\repos\\5sem\\SPPR\\WEB_253504_Novikov\\WEB_253504_Novikov.UI\\wwwroot\\Images\\granta.jpg",
-      "PackagePath": "staticwebassets\\Images\\granta.jpg"
-    },
-    {
-      "Id": "C:\\Users\\dzmitry\\source\\repos\\5sem\\SPPR\\WEB_253504_Novikov\\WEB_253504_Novikov.UI\\wwwroot\\Images\\hilux.jpg",
-      "PackagePath": "staticwebassets\\Images\\hilux.jpg"
-    },
-    {
-      "Id": "C:\\Users\\dzmitry\\source\\repos\\5sem\\SPPR\\WEB_253504_Novikov\\WEB_253504_Novikov.UI\\wwwroot\\Images\\kia_rio.jpg",
-      "PackagePath": "staticwebassets\\Images\\kia_rio.jpg"
-    },
-    {
-      "Id": "C:\\Users\\dzmitry\\source\\repos\\5sem\\SPPR\\WEB_253504_Novikov\\WEB_253504_Novikov.UI\\wwwroot\\Images\\logan.jpg",
-      "PackagePath": "staticwebassets\\Images\\logan.jpg"
-    },
-    {
-      "Id": "C:\\Users\\dzmitry\\source\\repos\\5sem\\SPPR\\WEB_253504_Novikov\\WEB_253504_Novikov.UI\\wwwroot\\Images\\mclaren.jpg",
-      "PackagePath": "staticwebassets\\Images\\mclaren.jpg"
-    },
-    {
-      "Id": "C:\\Users\\dzmitry\\source\\repos\\5sem\\SPPR\\WEB_253504_Novikov\\WEB_253504_Novikov.UI\\wwwroot\\Images\\polo.jpg",
-      "PackagePath": "staticwebassets\\Images\\polo.jpg"
-    },
-    {
-      "Id": "C:\\Users\\dzmitry\\source\\repos\\5sem\\SPPR\\WEB_253504_Novikov\\WEB_253504_Novikov.UI\\wwwroot\\Images\\ram.jpg",
-      "PackagePath": "staticwebassets\\Images\\ram.jpg"
-    },
-    {
-      "Id": "C:\\Users\\dzmitry\\source\\repos\\5sem\\SPPR\\WEB_253504_Novikov\\WEB_253504_Novikov.UI\\wwwroot\\Images\\shelby.jpg",
-      "PackagePath": "staticwebassets\\Images\\shelby.jpg"
-    },
-    {
-      "Id": "C:\\Users\\dzmitry\\source\\repos\\5sem\\SPPR\\WEB_253504_Novikov\\WEB_253504_Novikov.UI\\wwwroot\\Images\\swift.jpg",
-      "PackagePath": "staticwebassets\\Images\\swift.jpg"
-    },
-    {
-      "Id": "C:\\Users\\dzmitry\\source\\repos\\5sem\\SPPR\\WEB_253504_Novikov\\WEB_253504_Novikov.UI\\wwwroot\\Images\\twingo.jpg",
-      "PackagePath": "staticwebassets\\Images\\twingo.jpg"
+      "Id": "C:\\Users\\dzmitry\\source\\repos\\5sem\\SPPR\\WEB_253504_Novikov\\WEB_253504_Novikov.UI\\wwwroot\\Images\\default-profile-picture.png",
+      "PackagePath": "staticwebassets\\Images\\default-profile-picture.png"
     },
     {
       "Id": "C:\\Users\\dzmitry\\source\\repos\\5sem\\SPPR\\WEB_253504_Novikov\\WEB_253504_Novikov.UI\\wwwroot\\css\\site.css",

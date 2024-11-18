@@ -2,6 +2,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
@@ -13,6 +14,7 @@ namespace WEB_253504_Novikov.API.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
+    [Authorize(Policy = "admin")]
     public class VehiclesController : ControllerBase
     {
         //private readonly AppDbContext _context;
@@ -25,6 +27,7 @@ namespace WEB_253504_Novikov.API.Controllers
 
         // GET: api/Vehicles
         [HttpGet]
+        [AllowAnonymous]
         public async Task<ActionResult<IEnumerable<Vehicle>>> GetVehicles(string? vehicleType, int pageNo = 1, int pageSize = 3)
         {
             //return await _context.Vehicles.ToListAsync();

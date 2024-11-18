@@ -1,6 +1,66 @@
 {
   "Files": [
     {
+      "Id": "C:\\Users\\dzmitry\\source\\repos\\5sem\\SPPR\\WEB_253504_Novikov\\WEB_253504_Novikov.API\\wwwroot\\ImagesBackup\\crown_victoria.jpg",
+      "PackagePath": "staticwebassets\\ImagesBackup\\crown_victoria.jpg"
+    },
+    {
+      "Id": "C:\\Users\\dzmitry\\source\\repos\\5sem\\SPPR\\WEB_253504_Novikov\\WEB_253504_Novikov.API\\wwwroot\\ImagesBackup\\escalade.jpg",
+      "PackagePath": "staticwebassets\\ImagesBackup\\escalade.jpg"
+    },
+    {
+      "Id": "C:\\Users\\dzmitry\\source\\repos\\5sem\\SPPR\\WEB_253504_Novikov\\WEB_253504_Novikov.API\\wwwroot\\ImagesBackup\\explorer.jpg",
+      "PackagePath": "staticwebassets\\ImagesBackup\\explorer.jpg"
+    },
+    {
+      "Id": "C:\\Users\\dzmitry\\source\\repos\\5sem\\SPPR\\WEB_253504_Novikov\\WEB_253504_Novikov.API\\wwwroot\\ImagesBackup\\f150.jpg",
+      "PackagePath": "staticwebassets\\ImagesBackup\\f150.jpg"
+    },
+    {
+      "Id": "C:\\Users\\dzmitry\\source\\repos\\5sem\\SPPR\\WEB_253504_Novikov\\WEB_253504_Novikov.API\\wwwroot\\ImagesBackup\\granta.jpg",
+      "PackagePath": "staticwebassets\\ImagesBackup\\granta.jpg"
+    },
+    {
+      "Id": "C:\\Users\\dzmitry\\source\\repos\\5sem\\SPPR\\WEB_253504_Novikov\\WEB_253504_Novikov.API\\wwwroot\\ImagesBackup\\hilux.jpg",
+      "PackagePath": "staticwebassets\\ImagesBackup\\hilux.jpg"
+    },
+    {
+      "Id": "C:\\Users\\dzmitry\\source\\repos\\5sem\\SPPR\\WEB_253504_Novikov\\WEB_253504_Novikov.API\\wwwroot\\ImagesBackup\\kia_rio.jpg",
+      "PackagePath": "staticwebassets\\ImagesBackup\\kia_rio.jpg"
+    },
+    {
+      "Id": "C:\\Users\\dzmitry\\source\\repos\\5sem\\SPPR\\WEB_253504_Novikov\\WEB_253504_Novikov.API\\wwwroot\\ImagesBackup\\logan.jpg",
+      "PackagePath": "staticwebassets\\ImagesBackup\\logan.jpg"
+    },
+    {
+      "Id": "C:\\Users\\dzmitry\\source\\repos\\5sem\\SPPR\\WEB_253504_Novikov\\WEB_253504_Novikov.API\\wwwroot\\ImagesBackup\\mclaren.jpg",
+      "PackagePath": "staticwebassets\\ImagesBackup\\mclaren.jpg"
+    },
+    {
+      "Id": "C:\\Users\\dzmitry\\source\\repos\\5sem\\SPPR\\WEB_253504_Novikov\\WEB_253504_Novikov.API\\wwwroot\\ImagesBackup\\no-image.png",
+      "PackagePath": "staticwebassets\\ImagesBackup\\no-image.png"
+    },
+    {
+      "Id": "C:\\Users\\dzmitry\\source\\repos\\5sem\\SPPR\\WEB_253504_Novikov\\WEB_253504_Novikov.API\\wwwroot\\ImagesBackup\\polo.jpg",
+      "PackagePath": "staticwebassets\\ImagesBackup\\polo.jpg"
+    },
+    {
+      "Id": "C:\\Users\\dzmitry\\source\\repos\\5sem\\SPPR\\WEB_253504_Novikov\\WEB_253504_Novikov.API\\wwwroot\\ImagesBackup\\ram.jpg",
+      "PackagePath": "staticwebassets\\ImagesBackup\\ram.jpg"
+    },
+    {
+      "Id": "C:\\Users\\dzmitry\\source\\repos\\5sem\\SPPR\\WEB_253504_Novikov\\WEB_253504_Novikov.API\\wwwroot\\ImagesBackup\\shelby.jpg",
+      "PackagePath": "staticwebassets\\ImagesBackup\\shelby.jpg"
+    },
+    {
+      "Id": "C:\\Users\\dzmitry\\source\\repos\\5sem\\SPPR\\WEB_253504_Novikov\\WEB_253504_Novikov.API\\wwwroot\\ImagesBackup\\swift.jpg",
+      "PackagePath": "staticwebassets\\ImagesBackup\\swift.jpg"
+    },
+    {
+      "Id": "C:\\Users\\dzmitry\\source\\repos\\5sem\\SPPR\\WEB_253504_Novikov\\WEB_253504_Novikov.API\\wwwroot\\ImagesBackup\\twingo.jpg",
+      "PackagePath": "staticwebassets\\ImagesBackup\\twingo.jpg"
+    },
+    {
       "Id": "C:\\Users\\dzmitry\\source\\repos\\5sem\\SPPR\\WEB_253504_Novikov\\WEB_253504_Novikov.API\\wwwroot\\Images\\crown_victoria.jpg",
       "PackagePath": "staticwebassets\\Images\\crown_victoria.jpg"
     },
@@ -29,6 +89,10 @@
       "PackagePath": "staticwebassets\\Images\\kia_rio.jpg"
     },
     {
+      "Id": "C:\\Users\\dzmitry\\source\\repos\\5sem\\SPPR\\WEB_253504_Novikov\\WEB_253504_Novikov.API\\wwwroot\\Images\\kltbdvqq.png",
+      "PackagePath": "staticwebassets\\Images\\kltbdvqq.png"
+    },
+    {
       "Id": "C:\\Users\\dzmitry\\source\\repos\\5sem\\SPPR\\WEB_253504_Novikov\\WEB_253504_Novikov.API\\wwwroot\\Images\\logan.jpg",
       "PackagePath": "staticwebassets\\Images\\logan.jpg"
     },
@@ -55,14 +119,6 @@
     {
       "Id": "C:\\Users\\dzmitry\\source\\repos\\5sem\\SPPR\\WEB_253504_Novikov\\WEB_253504_Novikov.API\\wwwroot\\Images\\swift.jpg",
       "PackagePath": "staticwebassets\\Images\\swift.jpg"
-    },
-    {
-      "Id": "C:\\Users\\dzmitry\\source\\repos\\5sem\\SPPR\\WEB_253504_Novikov\\WEB_253504_Novikov.API\\wwwroot\\Images\\test - Копировать.png",
-      "PackagePath": "staticwebassets\\Images\\test - Копировать.png"
-    },
-    {
-      "Id": "C:\\Users\\dzmitry\\source\\repos\\5sem\\SPPR\\WEB_253504_Novikov\\WEB_253504_Novikov.API\\wwwroot\\Images\\test.png",
-      "PackagePath": "staticwebassets\\Images\\test.png"
     },
     {
       "Id": "C:\\Users\\dzmitry\\source\\repos\\5sem\\SPPR\\WEB_253504_Novikov\\WEB_253504_Novikov.API\\wwwroot\\Images\\twingo.jpg",

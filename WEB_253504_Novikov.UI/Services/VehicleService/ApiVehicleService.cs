@@ -3,6 +3,7 @@ using System.Text.Json;
 using WEB_253504_Novikov.Domain.Entities;
 using WEB_253504_Novikov.Domain.Models;
 using WEB_253504_Novikov.UI.Services.FileService;
+using WEB_253504_Novikov.UI.Services.TokenService;
 
 namespace WEB_253504_Novikov.UI.Services.VehicleService
 {
@@ -13,12 +14,14 @@ namespace WEB_253504_Novikov.UI.Services.VehicleService
         private readonly JsonSerializerOptions _serializerOptions;
         private readonly ILogger<ApiVehicleService> _logger;
         private readonly IFileService _fileService;
+        private readonly ITokenAccessor _tokenAccessor;
 
         public ApiVehicleService(
             HttpClient client,
             IConfiguration configuration,
             ILogger<ApiVehicleService> logger,
-            IFileService fileService)
+            IFileService fileService,
+            ITokenAccessor tokenAccessor)
         {
             _httpClient = client;
             _pageSize = configuration.GetSection("ItemsPerPage").Value;
@@ -28,6 +31,7 @@ namespace WEB_253504_Novikov.UI.Services.VehicleService
             };
             _logger = logger;
             _fileService = fileService;
+            _tokenAccessor = tokenAccessor;
         }
 
         //POST Vehicle
@@ -54,6 +58,8 @@ namespace WEB_253504_Novikov.UI.Services.VehicleService
             };
 
 
+            await _tokenAccessor.SetAuthorizationHeaderAsync(_httpClient);
+
             var response = await _httpClient.PostAsync(
                 uri,
                 multipartContent);
@@ -71,6 +77,9 @@ namespace WEB_253504_Novikov.UI.Services.VehicleService
         {
             var uri = new Uri(_httpClient.BaseAddress.AbsoluteUri + "Vehicles/" + id.ToString());
 
+
+            await _tokenAccessor.SetAuthorizationHeaderAsync(_httpClient);
+
             var productResponse = await _httpClient.GetAsync(uri);
             if (!productResponse.IsSuccessStatusCode)
             {
@@ -80,6 +89,8 @@ namespace WEB_253504_Novikov.UI.Services.VehicleService
             var product = await productResponse.Content.ReadFromJsonAsync<ResponseData<Vehicle>>(_serializerOptions);
 
             await _fileService.DeleteFileAsync(product.Data.ImagePath);
+
+            await _tokenAccessor.SetAuthorizationHeaderAsync(_httpClient);
 
             var response = await _httpClient.DeleteAsync(uri);
             if (response.IsSuccessStatusCode)
@@ -95,6 +106,8 @@ namespace WEB_253504_Novikov.UI.Services.VehicleService
         public async Task<ResponseData<Vehicle>> GetProductByIdAsync(int id)
         {
             var uri = new Uri(_httpClient.BaseAddress.AbsoluteUri + "Vehicles/" + id.ToString());
+
+            await _tokenAccessor.SetAuthorizationHeaderAsync(_httpClient);
 
             var response = await _httpClient.GetAsync(uri);
             if (response.IsSuccessStatusCode)
@@ -122,7 +135,9 @@ namespace WEB_253504_Novikov.UI.Services.VehicleService
             }
 
             urlString.Append(query.ToString());
-           
+
+            await _tokenAccessor.SetAuthorizationHeaderAsync(_httpClient);
+
             var response = await _httpClient.GetAsync(new Uri(urlString.ToString()));
             if (response.IsSuccessStatusCode)
             {
@@ -155,6 +170,8 @@ namespace WEB_253504_Novikov.UI.Services.VehicleService
                 if (!string.IsNullOrEmpty(imageUrl))
                     product.ImagePath = imageUrl;
             }
+
+            await _tokenAccessor.SetAuthorizationHeaderAsync(_httpClient);
 
             var response = await _httpClient.PutAsJsonAsync(
                 uri, 

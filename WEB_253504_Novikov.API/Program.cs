@@ -1,6 +1,10 @@
+using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.Options;
+using Microsoft.IdentityModel.Tokens;
 using Microsoft.VisualBasic;
 using WEB_253504_Novikov.API.Data;
+using WEB_253504_Novikov.API.Models;
 using WEB_253504_Novikov.API.Services.VehicleServices;
 using WEB_253504_Novikov.API.Services.VehicleTypeServices;
 
@@ -18,6 +22,26 @@ var connStr = builder.Configuration.GetConnectionString("Default");
 builder.Services.AddDbContext<AppDbContext>(options => options.UseSqlite(connStr));
 builder.Services.AddTransient<IVehicleService, VehicleService>();
 builder.Services.AddTransient<IVehicleTypeService, VehicleTypeService>();
+
+var authServer = builder.Configuration
+.GetSection("AuthServer")
+.Get<AuthServerData>();
+// Добавить сервис аутентификации
+builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
+.AddJwtBearer(JwtBearerDefaults.AuthenticationScheme, o =>
+{
+    o.MetadataAddress = $"{authServer.Host}/realms/{authServer.Realm}/.well-known/openid-configuration";
+    o.Authority = $"{authServer.Host}/realms/{authServer.Realm}";
+    o.Audience = "account";
+    o.RequireHttpsMetadata = false;
+});
+
+builder.Services.AddAuthorization(opt =>
+{
+    opt.AddPolicy("admin", p => p.RequireRole("POWER-USER"));
+    //opt.AddPolicy("admin", p => p.RequireClaim("http://schemas.microsoft.com/ws/2008/06/identity/claims/role", "POWER-USER"));
+});
+
 
 var app = builder.Build();
 
@@ -40,6 +64,7 @@ if (app.Environment.IsDevelopment())
 
 app.UseHttpsRedirection();
 
+app.UseAuthentication();
 app.UseAuthorization();
 
 app.MapControllers();
