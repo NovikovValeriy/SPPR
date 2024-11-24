@@ -12,6 +12,7 @@ namespace WEB_253504_Novikov.Domain.Models
             CategoriesResponse = categoriesResponse;
         }
 
+        public string CurrentVehicleTypeNormalizedName { get; set; }
         public ResponseData<ListModel<Vehicle>> ProductsResponse { get; set; }
         public ResponseData<List<VehicleType>> CategoriesResponse { get; set; }
     }

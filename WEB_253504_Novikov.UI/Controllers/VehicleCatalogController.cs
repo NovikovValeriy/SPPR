@@ -3,6 +3,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using WEB_253504_Novikov.Domain.Entities;
 using WEB_253504_Novikov.Domain.Models;
+using WEB_253504_Novikov.UI.Extensions;
 using WEB_253504_Novikov.UI.Services.VehicleService;
 using WEB_253504_Novikov.UI.Services.VehicleTypeService;
 
@@ -48,6 +49,12 @@ namespace WEB_253504_Novikov.UI.Controllers
                 return NotFound(productResponse.ErrorMessage);
             
             var catalogModel = new CatalogModel(productResponse, categoryResponse);
+            catalogModel.CurrentVehicleTypeNormalizedName = category.NormalizedName;
+
+            if (Request.IsAjaxRequest())
+            {
+                return PartialView("~/Views/Shared/_CatalogPartial.cshtml", catalogModel);
+            }
 
             return View(catalogModel);
         }

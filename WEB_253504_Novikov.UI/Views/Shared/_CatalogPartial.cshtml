@@ -1,0 +1,49 @@
+﻿@model WEB_253504_Novikov.Domain.Models.CatalogModel
+
+@{
+
+    var defaultImage = Url.Content("~/Images/no-image.png");
+}
+
+@functions {
+    public string GetReturnUrl()
+    {
+        var request = ViewContext.HttpContext.Request;
+        var returnUrl = request.Path + request.QueryString.ToUriComponent();
+        return returnUrl;
+    }
+}
+
+<nav aria-label="Page navigation example">
+    
+    <div id="productListContainer">
+        <div class="d-flex flex-wrap">
+            @foreach (var item in Model.ProductsResponse.Data.Items)
+            {
+                <div class="card m-2" style="width: 20rem; height: 26rem">
+                    @{
+                        if (item.ImagePath == null || item.ImagePath == string.Empty)
+                        {
+                            <img src="@defaultImage" class="card-img-top" style="height: 12rem; object-fit: cover">
+                        }
+                        else
+                        {
+                            <img src="@item.ImagePath" class="card-img-top" style="height: 12rem; object-fit: cover">
+                        }
+                    }
+                    <div class="card-body">
+                        <h5 class="card-title">@item.Name</h5>
+                        <p class="card-text">@item.Description</p>
+                        <p class="card-text">@item.Cost</p>
+                    </div>
+                    <div class="card-footer d-flex justify-content-center">
+                        <a class="btn btn-primary" asp-controller="Cart" asp-action="Add" asp-route-id="@item.Id" asp-route-returnurl="@GetReturnUrl()">Add to cart</a>
+                    </div>
+                </div>
+            }
+        </div>
+        <pager current-page="@Model.ProductsResponse.Data.CurrentPage"
+               total-pages="@Model.ProductsResponse.Data.TotalPages"
+               vehicle-type="@Model.CurrentVehicleTypeNormalizedName"></pager>
+    </div>
+</nav>
