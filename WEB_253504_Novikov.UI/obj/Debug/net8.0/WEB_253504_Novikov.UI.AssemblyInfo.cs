@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("WEB_253504_Novikov.UI")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+fcdc4dc540c604dad1efdbfdfa1cfbcf204ca4bb")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+693c5954e865009bf0ffc879d5c356d946802dec")]
 [assembly: System.Reflection.AssemblyProductAttribute("WEB_253504_Novikov.UI")]
 [assembly: System.Reflection.AssemblyTitleAttribute("WEB_253504_Novikov.UI")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

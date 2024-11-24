@@ -2,6 +2,7 @@
 
 @{
     Layout = "_Layout";
+    var defaultImage = Url.Content("~/Images/no-image.png");
 }
 
 @functions{
@@ -13,14 +14,14 @@
     }
 }
 
-<!DOCTYPE html>
+@* <!DOCTYPE html>
 
 <html>
 <head>
     <meta name="viewport" content="width=device-width" />
     <title>VehicleCatalog</title>
 </head>
-<body>
+<body> *@
     <!-- выбор категории -->
     <div class="col-2 border-2">
         <ul class="nav ">
@@ -52,11 +53,20 @@
             </li>
         </ul>
     </div><!-- выбор категории -->
-    <div class="d-flex flex-wrap">
+    <div id="productListContainer" class="d-flex flex-wrap">
         @foreach (var item in Model.ProductsResponse.Data.Items)
         {
             <div class="card m-2" style="width: 20rem; height: 26rem">
-                <img src="@item.ImagePath" class="card-img-top" style="height: 12rem; object-fit: cover">
+                @{
+                    if (item.ImagePath == null || item.ImagePath == string.Empty)
+                    {
+                        <img src="@defaultImage" class="card-img-top" style="height: 12rem; object-fit: cover">
+                    }
+                    else
+                    {
+                        <img src="@item.ImagePath" class="card-img-top" style="height: 12rem; object-fit: cover">
+                    }
+                }
                 <div class="card-body">
                     <h5 class="card-title">@item.Name</h5>
                     <p class="card-text">@item.Description</p>
@@ -75,5 +85,5 @@
         CurrentPage = Model.ProductsResponse.Data.CurrentPage,
         TotalPages = Model.ProductsResponse.Data.TotalPages
     })
-</body>
-</html>
+@*</body>
+</html>*@

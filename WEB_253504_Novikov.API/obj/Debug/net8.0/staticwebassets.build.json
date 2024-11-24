@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "UBVbhRRwIEY9gDkQf7IPFswvOaZF/FqVvCAL/9w78QA=",
+  "Hash": "E+kTlOMCmL3YGNc1BmhqURtLrPnz8DkUQ6FikDFAz4M=",
   "Source": "WEB_253504_Novikov.API",
   "BasePath": "_content/WEB_253504_Novikov.API",
   "Mode": "Default",
@@ -205,25 +205,6 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\Images\\mclaren.jpg"
-    },
-    {
-      "Identity": "C:\\Users\\dzmitry\\source\\repos\\5sem\\SPPR\\WEB_253504_Novikov\\WEB_253504_Novikov.API\\wwwroot\\Images\\no-image.png",
-      "SourceId": "WEB_253504_Novikov.API",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\dzmitry\\source\\repos\\5sem\\SPPR\\WEB_253504_Novikov\\WEB_253504_Novikov.API\\wwwroot\\",
-      "BasePath": "_content/WEB_253504_Novikov.API",
-      "RelativePath": "Images/no-image.png",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\Images\\no-image.png"
     },
     {
       "Identity": "C:\\Users\\dzmitry\\source\\repos\\5sem\\SPPR\\WEB_253504_Novikov\\WEB_253504_Novikov.API\\wwwroot\\Images\\polo.jpg",

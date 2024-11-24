@@ -1,7 +1,7 @@
 ﻿@model WEB_253504_Novikov.Domain.Models.PaginationModel
 
 <nav aria-label="Page navigation example">
-    <ul class="pagination">
+    @* <ul class="pagination">
         <li class="page-item">
             <a class="page-link"
                aria-label="Previous"
@@ -32,5 +32,8 @@
                 <span aria-hidden="true">&raquo;</span>
             </a>
         </li>
-    </ul>
+    </ul> *@
+    <pager current-page="@Model.CurrentPage"
+            total-pages="@Model.TotalPages"
+            vehicle-type="@Model.CurrentVehicleTypeNormalizedName"></pager>
 </nav>

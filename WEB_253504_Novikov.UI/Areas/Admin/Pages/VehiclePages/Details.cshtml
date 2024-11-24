@@ -3,6 +3,7 @@
 
 @{
     ViewData["Title"] = "Details";
+    var defaultImage = Url.Content("~/Images/no-image.png");
 }
 
 <h1>Details</h1>
@@ -40,7 +41,16 @@
             Image
         </dt>
         <dd class="col-sm-10">
-            <img src="@Model.Vehicle.ImagePath" style="height: 6rem" />
+            @{
+                if (Model.Vehicle.ImagePath == null || Model.Vehicle.ImagePath == string.Empty)
+                {
+                    <img src="@defaultImage" style="height: 6rem" />
+                }
+                else
+                {
+                    <img src="@Model.Vehicle.ImagePath" style="height: 6rem" />
+                }
+            }
         </dd>
         @* <dt class="col-sm-2">
             @Html.DisplayNameFor(model => model.Vehicle.ImageMime)

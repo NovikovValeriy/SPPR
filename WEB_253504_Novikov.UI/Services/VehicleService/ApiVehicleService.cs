@@ -37,8 +37,6 @@ namespace WEB_253504_Novikov.UI.Services.VehicleService
         //POST Vehicle
         public async Task<ResponseData<Vehicle>> CreateProductAsync(Vehicle product, IFormFile? formFile)
         {
-            product.ImagePath = "https://localhost:7002/Images/no-image.png";
-
             if(formFile != null)
             {
                 var imageUrl = await _fileService.SaveFileAsync(formFile);
@@ -54,7 +52,7 @@ namespace WEB_253504_Novikov.UI.Services.VehicleService
                 { new StringContent(product.Description), "Description" },
                 { new StringContent(product.TypeId.ToString()), "TypeId" },
                 { new StringContent(product.Cost.ToString()), "Cost" },
-                { new StringContent(product.ImagePath), "ImagePath" }
+                { new StringContent(product.ImagePath ?? string.Empty), "ImagePath" }
             };
 
 

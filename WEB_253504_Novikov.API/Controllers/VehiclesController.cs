@@ -38,6 +38,7 @@ namespace WEB_253504_Novikov.API.Controllers
 
         // GET: api/Vehicles/5
         [HttpGet("{id}")]
+        [AllowAnonymous]
         public async Task<ActionResult<Vehicle>> GetVehicle(int id)
         {
             /*var vehicle = await _context.Vehicles.FindAsync(id);
