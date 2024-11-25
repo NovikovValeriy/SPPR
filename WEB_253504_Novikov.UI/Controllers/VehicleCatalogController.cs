@@ -32,6 +32,7 @@ namespace WEB_253504_Novikov.UI.Controllers
 
             var categories = categoryResponse.Data;
             var category = new VehicleType();
+            ViewData["categories"] = categories;
             if (vehicleType == null)
             {
                 ViewData["currentVehicleType"] = "Все";
