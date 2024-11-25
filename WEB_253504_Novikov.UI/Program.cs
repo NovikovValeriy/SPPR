@@ -1,8 +1,10 @@
 ﻿using Microsoft.AspNetCore.Authentication.Cookies;
 using Microsoft.AspNetCore.Authentication.OpenIdConnect;
 using Microsoft.IdentityModel.Protocols.OpenIdConnect;
+using WEB_253504_Novikov.Domain.Entities;
 using WEB_253504_Novikov.UI.Extensions;
 using WEB_253504_Novikov.UI.HelperClasses;
+using WEB_253504_Novikov.UI.Services.CartService;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -40,6 +42,11 @@ builder.Services
 
 builder.Services.AddHttpContextAccessor();
 
+builder.Services.AddScoped<Cart>(SessionCart.GetCart);
+
+builder.Services.AddDistributedMemoryCache();
+builder.Services.AddSession();
+
 
 
 var app = builder.Build();
@@ -64,5 +71,7 @@ app.MapControllerRoute(
     pattern: "{controller=Home}/{action=Index}/{id?}");
 
 app.MapRazorPages();
+
+app.UseSession();
 
 app.Run();

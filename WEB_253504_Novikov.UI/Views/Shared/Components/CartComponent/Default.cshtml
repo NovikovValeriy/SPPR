@@ -1,6 +1,14 @@
-﻿<a asp-controller="Cart" asp-action="Index" class="navbar-text ms-auto">
-    @* 00,0 руб  *@
-    @((new Random().NextDouble() * 1000).ToString("0.00")) руб
+﻿@* @model WEB_253504_Novikov.Domain.Entities.Cart *@
+@using WEB_253504_Novikov.UI.Services.CartService
+@inject Cart _cart
+
+@{
+    var totalCount = _cart?.Count ?? 0;
+    var totalCost = _cart?.TotalCost ?? 0.0;
+}
+
+<a asp-controller="Cart" asp-action="ViewCart" class="navbar-text ms-auto">
+    @totalCost руб
     <i class="fa-solid fa-cart-shopping"></i>
-    (0)
+    (@totalCount)
 </a>

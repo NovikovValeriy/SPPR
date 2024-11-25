@@ -9,6 +9,7 @@ using WEB_253504_Novikov.UI.Services.VehicleTypeService;
 
 namespace WEB_253504_Novikov.UI.Controllers
 {
+    [Route("Catalog")]
     public class VehicleCatalogController : Controller
     {
         IVehicleService _vehicleService;
@@ -20,6 +21,8 @@ namespace WEB_253504_Novikov.UI.Controllers
             _vehicleTypeService = vehicleTypeService;
         }
         // GET: Vehicle
+        [Route("")]
+        [Route("{vehicleType?}")]
         public async Task<ActionResult> Index(string? vehicleType, int pageNo = 1)
         {
             var categoryResponse =
@@ -59,7 +62,7 @@ namespace WEB_253504_Novikov.UI.Controllers
             return View(catalogModel);
         }
 
-        // GET: Vehicle/Details/5
+        /*/ GET: Vehicle/Details/5
         public ActionResult Details(int id)
         {
             return View();
@@ -126,6 +129,6 @@ namespace WEB_253504_Novikov.UI.Controllers
             {
                 return View();
             }
-        }
+        }*/
     }
 }

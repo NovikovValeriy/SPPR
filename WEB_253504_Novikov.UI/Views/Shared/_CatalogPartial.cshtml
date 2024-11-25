@@ -37,7 +37,14 @@
                         <p class="card-text">@item.Cost</p>
                     </div>
                     <div class="card-footer d-flex justify-content-center">
-                        <a class="btn btn-primary" asp-controller="Cart" asp-action="Add" asp-route-id="@item.Id" asp-route-returnurl="@GetReturnUrl()">Add to cart</a>
+                        @if (User.Identity.IsAuthenticated)
+                        {
+                            <a class="btn btn-primary" asp-controller="Cart" asp-action="Add" asp-route-id="@item.Id" asp-route-returnurl="@GetReturnUrl()">Add to cart</a>
+                        }
+                        else
+                        {
+                            <a class="btn btn-primary" asp-controller="Account" asp-action="Login">Login to add to cart</a>
+                        }
                     </div>
                 </div>
             }

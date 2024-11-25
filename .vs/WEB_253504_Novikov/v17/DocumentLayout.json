@@ -3,16 +3,68 @@
   "WorkspaceRootPath": "C:\\Users\\dzmitry\\source\\repos\\5sem\\SPPR\\WEB_253504_Novikov\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E664C111-4C47-4B03-8CAD-639F8A3A92F1}|WEB_253504_Novikov.UI\\WEB_253504_Novikov.UI.csproj|c:\\users\\dzmitry\\source\\repos\\5sem\\sppr\\web_253504_novikov\\web_253504_novikov.ui\\views\\shared\\_catalogpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{E664C111-4C47-4B03-8CAD-639F8A3A92F1}|WEB_253504_Novikov.UI\\WEB_253504_Novikov.UI.csproj|solutionrelative:web_253504_novikov.ui\\views\\shared\\_catalogpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{E664C111-4C47-4B03-8CAD-639F8A3A92F1}|WEB_253504_Novikov.UI\\WEB_253504_Novikov.UI.csproj|c:\\users\\dzmitry\\source\\repos\\5sem\\sppr\\web_253504_novikov\\web_253504_novikov.ui\\views\\shared\\components\\cartcomponent\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E664C111-4C47-4B03-8CAD-639F8A3A92F1}|WEB_253504_Novikov.UI\\WEB_253504_Novikov.UI.csproj|solutionrelative:web_253504_novikov.ui\\views\\shared\\components\\cartcomponent\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E664C111-4C47-4B03-8CAD-639F8A3A92F1}|WEB_253504_Novikov.UI\\WEB_253504_Novikov.UI.csproj|c:\\users\\dzmitry\\source\\repos\\5sem\\sppr\\web_253504_novikov\\web_253504_novikov.ui\\views\\cart\\viewcart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E664C111-4C47-4B03-8CAD-639F8A3A92F1}|WEB_253504_Novikov.UI\\WEB_253504_Novikov.UI.csproj|solutionrelative:web_253504_novikov.ui\\views\\cart\\viewcart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E664C111-4C47-4B03-8CAD-639F8A3A92F1}|WEB_253504_Novikov.UI\\WEB_253504_Novikov.UI.csproj|c:\\users\\dzmitry\\source\\repos\\5sem\\sppr\\web_253504_novikov\\web_253504_novikov.ui\\components\\cartcomponent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E664C111-4C47-4B03-8CAD-639F8A3A92F1}|WEB_253504_Novikov.UI\\WEB_253504_Novikov.UI.csproj|solutionrelative:web_253504_novikov.ui\\components\\cartcomponent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E664C111-4C47-4B03-8CAD-639F8A3A92F1}|WEB_253504_Novikov.UI\\WEB_253504_Novikov.UI.csproj|c:\\users\\dzmitry\\source\\repos\\5sem\\sppr\\web_253504_novikov\\web_253504_novikov.ui\\controllers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E664C111-4C47-4B03-8CAD-639F8A3A92F1}|WEB_253504_Novikov.UI\\WEB_253504_Novikov.UI.csproj|solutionrelative:web_253504_novikov.ui\\controllers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1B76EFCC-BAD3-43D3-94AE-AA359B1EF15A}|WEB_253504_Novikov.Domain\\WEB_253504_Novikov.Domain.csproj|c:\\users\\dzmitry\\source\\repos\\5sem\\sppr\\web_253504_novikov\\web_253504_novikov.domain\\entities\\cart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1B76EFCC-BAD3-43D3-94AE-AA359B1EF15A}|WEB_253504_Novikov.Domain\\WEB_253504_Novikov.Domain.csproj|solutionrelative:web_253504_novikov.domain\\entities\\cart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E664C111-4C47-4B03-8CAD-639F8A3A92F1}|WEB_253504_Novikov.UI\\WEB_253504_Novikov.UI.csproj|c:\\users\\dzmitry\\source\\repos\\5sem\\sppr\\web_253504_novikov\\web_253504_novikov.ui\\extensions\\sessionextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E664C111-4C47-4B03-8CAD-639F8A3A92F1}|WEB_253504_Novikov.UI\\WEB_253504_Novikov.UI.csproj|solutionrelative:web_253504_novikov.ui\\extensions\\sessionextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E664C111-4C47-4B03-8CAD-639F8A3A92F1}|WEB_253504_Novikov.UI\\WEB_253504_Novikov.UI.csproj|c:\\users\\dzmitry\\source\\repos\\5sem\\sppr\\web_253504_novikov\\web_253504_novikov.ui\\services\\cartservice\\sessioncart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E664C111-4C47-4B03-8CAD-639F8A3A92F1}|WEB_253504_Novikov.UI\\WEB_253504_Novikov.UI.csproj|solutionrelative:web_253504_novikov.ui\\services\\cartservice\\sessioncart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1B76EFCC-BAD3-43D3-94AE-AA359B1EF15A}|WEB_253504_Novikov.Domain\\WEB_253504_Novikov.Domain.csproj|c:\\users\\dzmitry\\source\\repos\\5sem\\sppr\\web_253504_novikov\\web_253504_novikov.domain\\entities\\cartitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1B76EFCC-BAD3-43D3-94AE-AA359B1EF15A}|WEB_253504_Novikov.Domain\\WEB_253504_Novikov.Domain.csproj|solutionrelative:web_253504_novikov.domain\\entities\\cartitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{694FB4E8-C61D-4662-B526-A97D86AACD90}|WEB_253504_Novikov.API\\WEB_253504_Novikov.API.csproj|c:\\users\\dzmitry\\source\\repos\\5sem\\sppr\\web_253504_novikov\\web_253504_novikov.api\\controllers\\vehiclescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{694FB4E8-C61D-4662-B526-A97D86AACD90}|WEB_253504_Novikov.API\\WEB_253504_Novikov.API.csproj|solutionrelative:web_253504_novikov.api\\controllers\\vehiclescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E664C111-4C47-4B03-8CAD-639F8A3A92F1}|WEB_253504_Novikov.UI\\WEB_253504_Novikov.UI.csproj|c:\\users\\dzmitry\\source\\repos\\5sem\\sppr\\web_253504_novikov\\web_253504_novikov.ui\\services\\vehicleservice\\apivehicleservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E664C111-4C47-4B03-8CAD-639F8A3A92F1}|WEB_253504_Novikov.UI\\WEB_253504_Novikov.UI.csproj|solutionrelative:web_253504_novikov.ui\\services\\vehicleservice\\apivehicleservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E664C111-4C47-4B03-8CAD-639F8A3A92F1}|WEB_253504_Novikov.UI\\WEB_253504_Novikov.UI.csproj|c:\\users\\dzmitry\\source\\repos\\5sem\\sppr\\web_253504_novikov\\web_253504_novikov.ui\\views\\vehiclecatalog\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E664C111-4C47-4B03-8CAD-639F8A3A92F1}|WEB_253504_Novikov.UI\\WEB_253504_Novikov.UI.csproj|solutionrelative:web_253504_novikov.ui\\views\\vehiclecatalog\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E664C111-4C47-4B03-8CAD-639F8A3A92F1}|WEB_253504_Novikov.UI\\WEB_253504_Novikov.UI.csproj|c:\\users\\dzmitry\\source\\repos\\5sem\\sppr\\web_253504_novikov\\web_253504_novikov.ui\\taghelpers\\pagertaghelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E664C111-4C47-4B03-8CAD-639F8A3A92F1}|WEB_253504_Novikov.UI\\WEB_253504_Novikov.UI.csproj|solutionrelative:web_253504_novikov.ui\\taghelpers\\pagertaghelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E664C111-4C47-4B03-8CAD-639F8A3A92F1}|WEB_253504_Novikov.UI\\WEB_253504_Novikov.UI.csproj|c:\\users\\dzmitry\\source\\repos\\5sem\\sppr\\web_253504_novikov\\web_253504_novikov.ui\\views\\vehiclecatalog\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{E664C111-4C47-4B03-8CAD-639F8A3A92F1}|WEB_253504_Novikov.UI\\WEB_253504_Novikov.UI.csproj|solutionrelative:web_253504_novikov.ui\\views\\vehiclecatalog\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{E664C111-4C47-4B03-8CAD-639F8A3A92F1}|WEB_253504_Novikov.UI\\WEB_253504_Novikov.UI.csproj|c:\\users\\dzmitry\\source\\repos\\5sem\\sppr\\web_253504_novikov\\web_253504_novikov.ui\\controllers\\home.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E664C111-4C47-4B03-8CAD-639F8A3A92F1}|WEB_253504_Novikov.UI\\WEB_253504_Novikov.UI.csproj|solutionrelative:web_253504_novikov.ui\\controllers\\home.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E664C111-4C47-4B03-8CAD-639F8A3A92F1}|WEB_253504_Novikov.UI\\WEB_253504_Novikov.UI.csproj|c:\\users\\dzmitry\\source\\repos\\5sem\\sppr\\web_253504_novikov\\web_253504_novikov.ui\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E664C111-4C47-4B03-8CAD-639F8A3A92F1}|WEB_253504_Novikov.UI\\WEB_253504_Novikov.UI.csproj|solutionrelative:web_253504_novikov.ui\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E664C111-4C47-4B03-8CAD-639F8A3A92F1}|WEB_253504_Novikov.UI\\WEB_253504_Novikov.UI.csproj|c:\\users\\dzmitry\\source\\repos\\5sem\\sppr\\web_253504_novikov\\web_253504_novikov.ui\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E664C111-4C47-4B03-8CAD-639F8A3A92F1}|WEB_253504_Novikov.UI\\WEB_253504_Novikov.UI.csproj|solutionrelative:web_253504_novikov.ui\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E664C111-4C47-4B03-8CAD-639F8A3A92F1}|WEB_253504_Novikov.UI\\WEB_253504_Novikov.UI.csproj|c:\\users\\dzmitry\\source\\repos\\5sem\\sppr\\web_253504_novikov\\web_253504_novikov.ui\\views\\shared\\_catalogpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E664C111-4C47-4B03-8CAD-639F8A3A92F1}|WEB_253504_Novikov.UI\\WEB_253504_Novikov.UI.csproj|solutionrelative:web_253504_novikov.ui\\views\\shared\\_catalogpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E664C111-4C47-4B03-8CAD-639F8A3A92F1}|WEB_253504_Novikov.UI\\WEB_253504_Novikov.UI.csproj|c:\\users\\dzmitry\\source\\repos\\5sem\\sppr\\web_253504_novikov\\web_253504_novikov.ui\\controllers\\vehiclecatalogcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -31,10 +83,6 @@
       "RelativeMoniker": "D:0:0:{E664C111-4C47-4B03-8CAD-639F8A3A92F1}|WEB_253504_Novikov.UI\\WEB_253504_Novikov.UI.csproj|solutionrelative:web_253504_novikov.ui\\extensions\\httprequestextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E664C111-4C47-4B03-8CAD-639F8A3A92F1}|WEB_253504_Novikov.UI\\WEB_253504_Novikov.UI.csproj|c:\\users\\dzmitry\\source\\repos\\5sem\\sppr\\web_253504_novikov\\web_253504_novikov.ui\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{E664C111-4C47-4B03-8CAD-639F8A3A92F1}|WEB_253504_Novikov.UI\\WEB_253504_Novikov.UI.csproj|solutionrelative:web_253504_novikov.ui\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{1B76EFCC-BAD3-43D3-94AE-AA359B1EF15A}|WEB_253504_Novikov.Domain\\WEB_253504_Novikov.Domain.csproj|c:\\users\\dzmitry\\source\\repos\\5sem\\sppr\\web_253504_novikov\\web_253504_novikov.domain\\models\\paginationmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1B76EFCC-BAD3-43D3-94AE-AA359B1EF15A}|WEB_253504_Novikov.Domain\\WEB_253504_Novikov.Domain.csproj|solutionrelative:web_253504_novikov.domain\\models\\paginationmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -45,10 +93,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{1B76EFCC-BAD3-43D3-94AE-AA359B1EF15A}|WEB_253504_Novikov.Domain\\WEB_253504_Novikov.Domain.csproj|c:\\users\\dzmitry\\source\\repos\\5sem\\sppr\\web_253504_novikov\\web_253504_novikov.domain\\models\\listmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1B76EFCC-BAD3-43D3-94AE-AA359B1EF15A}|WEB_253504_Novikov.Domain\\WEB_253504_Novikov.Domain.csproj|solutionrelative:web_253504_novikov.domain\\models\\listmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E664C111-4C47-4B03-8CAD-639F8A3A92F1}|WEB_253504_Novikov.UI\\WEB_253504_Novikov.UI.csproj|c:\\users\\dzmitry\\source\\repos\\5sem\\sppr\\web_253504_novikov\\web_253504_novikov.ui\\views\\shared\\components\\cartcomponent\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{E664C111-4C47-4B03-8CAD-639F8A3A92F1}|WEB_253504_Novikov.UI\\WEB_253504_Novikov.UI.csproj|solutionrelative:web_253504_novikov.ui\\views\\shared\\components\\cartcomponent\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -58,7 +102,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 10,
           "Children": [
             {
               "$type": "Bookmark",
@@ -66,20 +110,202 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "VehiclesController.cs",
+              "DocumentMoniker": "C:\\Users\\dzmitry\\source\\repos\\5sem\\SPPR\\WEB_253504_Novikov\\WEB_253504_Novikov.API\\Controllers\\VehiclesController.cs",
+              "RelativeDocumentMoniker": "WEB_253504_Novikov.API\\Controllers\\VehiclesController.cs",
+              "ToolTip": "C:\\Users\\dzmitry\\source\\repos\\5sem\\SPPR\\WEB_253504_Novikov\\WEB_253504_Novikov.API\\Controllers\\VehiclesController.cs",
+              "RelativeToolTip": "WEB_253504_Novikov.API\\Controllers\\VehiclesController.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAAwwCoAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-25T09:46:31.099Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ApiVehicleService.cs",
+              "DocumentMoniker": "C:\\Users\\dzmitry\\source\\repos\\5sem\\SPPR\\WEB_253504_Novikov\\WEB_253504_Novikov.UI\\Services\\VehicleService\\ApiVehicleService.cs",
+              "RelativeDocumentMoniker": "WEB_253504_Novikov.UI\\Services\\VehicleService\\ApiVehicleService.cs",
+              "ToolTip": "C:\\Users\\dzmitry\\source\\repos\\5sem\\SPPR\\WEB_253504_Novikov\\WEB_253504_Novikov.UI\\Services\\VehicleService\\ApiVehicleService.cs",
+              "RelativeToolTip": "WEB_253504_Novikov.UI\\Services\\VehicleService\\ApiVehicleService.cs",
+              "ViewState": "AgIAAGQAAAAAAAAAAAAwwGkAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-25T09:46:31.108Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CartComponent.cs",
+              "DocumentMoniker": "C:\\Users\\dzmitry\\source\\repos\\5sem\\SPPR\\WEB_253504_Novikov\\WEB_253504_Novikov.UI\\Components\\CartComponent.cs",
+              "RelativeDocumentMoniker": "WEB_253504_Novikov.UI\\Components\\CartComponent.cs",
+              "ToolTip": "C:\\Users\\dzmitry\\source\\repos\\5sem\\SPPR\\WEB_253504_Novikov\\WEB_253504_Novikov.UI\\Components\\CartComponent.cs",
+              "RelativeToolTip": "WEB_253504_Novikov.UI\\Components\\CartComponent.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-25T09:42:13.201Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ViewCart.cshtml",
+              "DocumentMoniker": "C:\\Users\\dzmitry\\source\\repos\\5sem\\SPPR\\WEB_253504_Novikov\\WEB_253504_Novikov.UI\\Views\\Cart\\ViewCart.cshtml",
+              "RelativeDocumentMoniker": "WEB_253504_Novikov.UI\\Views\\Cart\\ViewCart.cshtml",
+              "ToolTip": "C:\\Users\\dzmitry\\source\\repos\\5sem\\SPPR\\WEB_253504_Novikov\\WEB_253504_Novikov.UI\\Views\\Cart\\ViewCart.cshtml",
+              "RelativeToolTip": "WEB_253504_Novikov.UI\\Views\\Cart\\ViewCart.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-25T09:28:24.517Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "SessionExtensions.cs",
+              "DocumentMoniker": "C:\\Users\\dzmitry\\source\\repos\\5sem\\SPPR\\WEB_253504_Novikov\\WEB_253504_Novikov.UI\\Extensions\\SessionExtensions.cs",
+              "RelativeDocumentMoniker": "WEB_253504_Novikov.UI\\Extensions\\SessionExtensions.cs",
+              "ToolTip": "C:\\Users\\dzmitry\\source\\repos\\5sem\\SPPR\\WEB_253504_Novikov\\WEB_253504_Novikov.UI\\Extensions\\SessionExtensions.cs",
+              "RelativeToolTip": "WEB_253504_Novikov.UI\\Extensions\\SessionExtensions.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-25T09:24:45.268Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "SessionCart.cs",
+              "DocumentMoniker": "C:\\Users\\dzmitry\\source\\repos\\5sem\\SPPR\\WEB_253504_Novikov\\WEB_253504_Novikov.UI\\Services\\CartService\\SessionCart.cs",
+              "RelativeDocumentMoniker": "WEB_253504_Novikov.UI\\Services\\CartService\\SessionCart.cs",
+              "ToolTip": "C:\\Users\\dzmitry\\source\\repos\\5sem\\SPPR\\WEB_253504_Novikov\\WEB_253504_Novikov.UI\\Services\\CartService\\SessionCart.cs",
+              "RelativeToolTip": "WEB_253504_Novikov.UI\\Services\\CartService\\SessionCart.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-25T09:21:43.455Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "CartItem.cs",
+              "DocumentMoniker": "C:\\Users\\dzmitry\\source\\repos\\5sem\\SPPR\\WEB_253504_Novikov\\WEB_253504_Novikov.Domain\\Entities\\CartItem.cs",
+              "RelativeDocumentMoniker": "WEB_253504_Novikov.Domain\\Entities\\CartItem.cs",
+              "ToolTip": "C:\\Users\\dzmitry\\source\\repos\\5sem\\SPPR\\WEB_253504_Novikov\\WEB_253504_Novikov.Domain\\Entities\\CartItem.cs",
+              "RelativeToolTip": "WEB_253504_Novikov.Domain\\Entities\\CartItem.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-24T23:49:52.187Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Cart.cs",
+              "DocumentMoniker": "C:\\Users\\dzmitry\\source\\repos\\5sem\\SPPR\\WEB_253504_Novikov\\WEB_253504_Novikov.Domain\\Entities\\Cart.cs",
+              "RelativeDocumentMoniker": "WEB_253504_Novikov.Domain\\Entities\\Cart.cs",
+              "ToolTip": "C:\\Users\\dzmitry\\source\\repos\\5sem\\SPPR\\WEB_253504_Novikov\\WEB_253504_Novikov.Domain\\Entities\\Cart.cs",
+              "RelativeToolTip": "WEB_253504_Novikov.Domain\\Entities\\Cart.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-24T23:49:25.525Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CartController.cs",
+              "DocumentMoniker": "C:\\Users\\dzmitry\\source\\repos\\5sem\\SPPR\\WEB_253504_Novikov\\WEB_253504_Novikov.UI\\Controllers\\CartController.cs",
+              "RelativeDocumentMoniker": "WEB_253504_Novikov.UI\\Controllers\\CartController.cs",
+              "ToolTip": "C:\\Users\\dzmitry\\source\\repos\\5sem\\SPPR\\WEB_253504_Novikov\\WEB_253504_Novikov.UI\\Controllers\\CartController.cs",
+              "RelativeToolTip": "WEB_253504_Novikov.UI\\Controllers\\CartController.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAowCgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-24T23:47:55.413Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Default.cshtml",
+              "DocumentMoniker": "C:\\Users\\dzmitry\\source\\repos\\5sem\\SPPR\\WEB_253504_Novikov\\WEB_253504_Novikov.UI\\Views\\Shared\\Components\\CartComponent\\Default.cshtml",
+              "RelativeDocumentMoniker": "WEB_253504_Novikov.UI\\Views\\Shared\\Components\\CartComponent\\Default.cshtml",
+              "ToolTip": "C:\\Users\\dzmitry\\source\\repos\\5sem\\SPPR\\WEB_253504_Novikov\\WEB_253504_Novikov.UI\\Views\\Shared\\Components\\CartComponent\\Default.cshtml",
+              "RelativeToolTip": "WEB_253504_Novikov.UI\\Views\\Shared\\Components\\CartComponent\\Default.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-24T19:53:06.973Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "PagerTagHelper.cs",
+              "DocumentMoniker": "C:\\Users\\dzmitry\\source\\repos\\5sem\\SPPR\\WEB_253504_Novikov\\WEB_253504_Novikov.UI\\TagHelpers\\PagerTagHelper.cs",
+              "RelativeDocumentMoniker": "WEB_253504_Novikov.UI\\TagHelpers\\PagerTagHelper.cs",
+              "ToolTip": "C:\\Users\\dzmitry\\source\\repos\\5sem\\SPPR\\WEB_253504_Novikov\\WEB_253504_Novikov.UI\\TagHelpers\\PagerTagHelper.cs",
+              "RelativeToolTip": "WEB_253504_Novikov.UI\\TagHelpers\\PagerTagHelper.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAwwCgAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-24T17:47:44.715Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\dzmitry\\source\\repos\\5sem\\SPPR\\WEB_253504_Novikov\\WEB_253504_Novikov.UI\\Views\\VehicleCatalog\\Index.cshtml",
+              "RelativeDocumentMoniker": "WEB_253504_Novikov.UI\\Views\\VehicleCatalog\\Index.cshtml",
+              "ToolTip": "C:\\Users\\dzmitry\\source\\repos\\5sem\\SPPR\\WEB_253504_Novikov\\WEB_253504_Novikov.UI\\Views\\VehicleCatalog\\Index.cshtml",
+              "RelativeToolTip": "WEB_253504_Novikov.UI\\Views\\VehicleCatalog\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACIAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-24T17:44:00.74Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\dzmitry\\source\\repos\\5sem\\SPPR\\WEB_253504_Novikov\\WEB_253504_Novikov.UI\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "WEB_253504_Novikov.UI\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\dzmitry\\source\\repos\\5sem\\SPPR\\WEB_253504_Novikov\\WEB_253504_Novikov.UI\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "WEB_253504_Novikov.UI\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-25T09:37:58.422Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Home.cs",
+              "DocumentMoniker": "C:\\Users\\dzmitry\\source\\repos\\5sem\\SPPR\\WEB_253504_Novikov\\WEB_253504_Novikov.UI\\Controllers\\Home.cs",
+              "RelativeDocumentMoniker": "WEB_253504_Novikov.UI\\Controllers\\Home.cs",
+              "ToolTip": "C:\\Users\\dzmitry\\source\\repos\\5sem\\SPPR\\WEB_253504_Novikov\\WEB_253504_Novikov.UI\\Controllers\\Home.cs",
+              "RelativeToolTip": "WEB_253504_Novikov.UI\\Controllers\\Home.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABUAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-25T09:38:43.973Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
               "Title": "_CatalogPartial.cshtml",
               "DocumentMoniker": "C:\\Users\\dzmitry\\source\\repos\\5sem\\SPPR\\WEB_253504_Novikov\\WEB_253504_Novikov.UI\\Views\\Shared\\_CatalogPartial.cshtml",
               "RelativeDocumentMoniker": "WEB_253504_Novikov.UI\\Views\\Shared\\_CatalogPartial.cshtml",
               "ToolTip": "C:\\Users\\dzmitry\\source\\repos\\5sem\\SPPR\\WEB_253504_Novikov\\WEB_253504_Novikov.UI\\Views\\Shared\\_CatalogPartial.cshtml",
               "RelativeToolTip": "WEB_253504_Novikov.UI\\Views\\Shared\\_CatalogPartial.cshtml",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABUAAAANAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAACgAAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-11-24T19:57:52.49Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 21,
               "Title": "Default.cshtml",
               "DocumentMoniker": "C:\\Users\\dzmitry\\source\\repos\\5sem\\SPPR\\WEB_253504_Novikov\\WEB_253504_Novikov.UI\\Views\\Shared\\Components\\PaginationComponent\\Default.cshtml",
               "RelativeDocumentMoniker": "WEB_253504_Novikov.UI\\Views\\Shared\\Components\\PaginationComponent\\Default.cshtml",
@@ -87,25 +313,24 @@
               "RelativeToolTip": "WEB_253504_Novikov.UI\\Views\\Shared\\Components\\PaginationComponent\\Default.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-24T19:53:26.261Z",
+              "WhenOpened": "2024-11-24T19:53:26.261Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\dzmitry\\source\\repos\\5sem\\SPPR\\WEB_253504_Novikov\\WEB_253504_Novikov.UI\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "WEB_253504_Novikov.UI\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\dzmitry\\source\\repos\\5sem\\SPPR\\WEB_253504_Novikov\\WEB_253504_Novikov.UI\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "WEB_253504_Novikov.UI\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-24T17:53:29.241Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "ListModel.cs",
-              "DocumentMoniker": "C:\\Users\\dzmitry\\source\\repos\\5sem\\SPPR\\WEB_253504_Novikov\\WEB_253504_Novikov.Domain\\Models\\ListModel.cs",
-              "RelativeDocumentMoniker": "WEB_253504_Novikov.Domain\\Models\\ListModel.cs",
-              "ToolTip": "C:\\Users\\dzmitry\\source\\repos\\5sem\\SPPR\\WEB_253504_Novikov\\WEB_253504_Novikov.Domain\\Models\\ListModel.cs",
-              "RelativeToolTip": "WEB_253504_Novikov.Domain\\Models\\ListModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-24T19:47:45.069Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 20,
               "Title": "PaginationModel.cs",
               "DocumentMoniker": "C:\\Users\\dzmitry\\source\\repos\\5sem\\SPPR\\WEB_253504_Novikov\\WEB_253504_Novikov.Domain\\Models\\PaginationModel.cs",
               "RelativeDocumentMoniker": "WEB_253504_Novikov.Domain\\Models\\PaginationModel.cs",
@@ -113,12 +338,23 @@
               "RelativeToolTip": "WEB_253504_Novikov.Domain\\Models\\PaginationModel.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-24T19:47:22.496Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-24T19:47:22.496Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 22,
+              "Title": "ListModel.cs",
+              "DocumentMoniker": "C:\\Users\\dzmitry\\source\\repos\\5sem\\SPPR\\WEB_253504_Novikov\\WEB_253504_Novikov.Domain\\Models\\ListModel.cs",
+              "RelativeDocumentMoniker": "WEB_253504_Novikov.Domain\\Models\\ListModel.cs",
+              "ToolTip": "C:\\Users\\dzmitry\\source\\repos\\5sem\\SPPR\\WEB_253504_Novikov\\WEB_253504_Novikov.Domain\\Models\\ListModel.cs",
+              "RelativeToolTip": "WEB_253504_Novikov.Domain\\Models\\ListModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-24T19:47:45.069Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
               "Title": "CatalogModel.cs",
               "DocumentMoniker": "C:\\Users\\dzmitry\\source\\repos\\5sem\\SPPR\\WEB_253504_Novikov\\WEB_253504_Novikov.Domain\\Models\\CatalogModel.cs",
               "RelativeDocumentMoniker": "WEB_253504_Novikov.Domain\\Models\\CatalogModel.cs",
@@ -126,64 +362,24 @@
               "RelativeToolTip": "WEB_253504_Novikov.Domain\\Models\\CatalogModel.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAzAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-24T19:47:20.548Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-24T19:47:20.548Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\Users\\dzmitry\\source\\repos\\5sem\\SPPR\\WEB_253504_Novikov\\WEB_253504_Novikov.UI\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "WEB_253504_Novikov.UI\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\Users\\dzmitry\\source\\repos\\5sem\\SPPR\\WEB_253504_Novikov\\WEB_253504_Novikov.UI\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "WEB_253504_Novikov.UI\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC0AAAA5AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-24T17:53:29.241Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\dzmitry\\source\\repos\\5sem\\SPPR\\WEB_253504_Novikov\\WEB_253504_Novikov.UI\\Views\\VehicleCatalog\\Index.cshtml",
-              "RelativeDocumentMoniker": "WEB_253504_Novikov.UI\\Views\\VehicleCatalog\\Index.cshtml",
-              "ToolTip": "C:\\Users\\dzmitry\\source\\repos\\5sem\\SPPR\\WEB_253504_Novikov\\WEB_253504_Novikov.UI\\Views\\VehicleCatalog\\Index.cshtml",
-              "RelativeToolTip": "WEB_253504_Novikov.UI\\Views\\VehicleCatalog\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC0AAAAeAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-24T17:44:00.74Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "PagerTagHelper.cs",
-              "DocumentMoniker": "C:\\Users\\dzmitry\\source\\repos\\5sem\\SPPR\\WEB_253504_Novikov\\WEB_253504_Novikov.UI\\TagHelpers\\PagerTagHelper.cs",
-              "RelativeDocumentMoniker": "WEB_253504_Novikov.UI\\TagHelpers\\PagerTagHelper.cs",
-              "ToolTip": "C:\\Users\\dzmitry\\source\\repos\\5sem\\SPPR\\WEB_253504_Novikov\\WEB_253504_Novikov.UI\\TagHelpers\\PagerTagHelper.cs",
-              "RelativeToolTip": "WEB_253504_Novikov.UI\\TagHelpers\\PagerTagHelper.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAgwCMAAAAxAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-24T17:47:44.715Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 16,
               "Title": "VehicleCatalogController.cs",
               "DocumentMoniker": "C:\\Users\\dzmitry\\source\\repos\\5sem\\SPPR\\WEB_253504_Novikov\\WEB_253504_Novikov.UI\\Controllers\\VehicleCatalogController.cs",
               "RelativeDocumentMoniker": "WEB_253504_Novikov.UI\\Controllers\\VehicleCatalogController.cs",
               "ToolTip": "C:\\Users\\dzmitry\\source\\repos\\5sem\\SPPR\\WEB_253504_Novikov\\WEB_253504_Novikov.UI\\Controllers\\VehicleCatalogController.cs",
               "RelativeToolTip": "WEB_253504_Novikov.UI\\Controllers\\VehicleCatalogController.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAxwDMAAABUAAAAAAAAAA==",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAowIMAAAALAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-24T20:08:58.049Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 17,
               "Title": "site.js",
               "DocumentMoniker": "C:\\Users\\dzmitry\\source\\repos\\5sem\\SPPR\\WEB_253504_Novikov\\WEB_253504_Novikov.UI\\wwwroot\\js\\site.js",
               "RelativeDocumentMoniker": "WEB_253504_Novikov.UI\\wwwroot\\js\\site.js",
@@ -191,12 +387,11 @@
               "RelativeToolTip": "WEB_253504_Novikov.UI\\wwwroot\\js\\site.js",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2024-11-24T19:39:49.405Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-24T19:39:49.405Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 19,
               "Title": "HttpRequestExtensions.cs",
               "DocumentMoniker": "C:\\Users\\dzmitry\\source\\repos\\5sem\\SPPR\\WEB_253504_Novikov\\WEB_253504_Novikov.UI\\Extensions\\HttpRequestExtensions.cs",
               "RelativeDocumentMoniker": "WEB_253504_Novikov.UI\\Extensions\\HttpRequestExtensions.cs",
@@ -204,20 +399,7 @@
               "RelativeToolTip": "WEB_253504_Novikov.UI\\Extensions\\HttpRequestExtensions.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAB6AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-24T20:17:18.998Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "Default.cshtml",
-              "DocumentMoniker": "C:\\Users\\dzmitry\\source\\repos\\5sem\\SPPR\\WEB_253504_Novikov\\WEB_253504_Novikov.UI\\Views\\Shared\\Components\\CartComponent\\Default.cshtml",
-              "RelativeDocumentMoniker": "WEB_253504_Novikov.UI\\Views\\Shared\\Components\\CartComponent\\Default.cshtml",
-              "ToolTip": "C:\\Users\\dzmitry\\source\\repos\\5sem\\SPPR\\WEB_253504_Novikov\\WEB_253504_Novikov.UI\\Views\\Shared\\Components\\CartComponent\\Default.cshtml",
-              "RelativeToolTip": "WEB_253504_Novikov.UI\\Views\\Shared\\Components\\CartComponent\\Default.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-24T19:53:06.973Z"
+              "WhenOpened": "2024-11-24T20:17:18.998Z"
             }
           ]
         }
