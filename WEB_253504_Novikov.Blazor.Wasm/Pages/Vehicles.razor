@@ -1,0 +1,27 @@
+﻿@page "/vehicles"
+@using Microsoft.AspNetCore.Authorization
+@attribute [Authorize]
+@using WEB_253504_Novikov.Blazor.Wasm.Components
+@using WEB_253504_Novikov.Domain.Entities
+
+<PageTitle>Vehicles</PageTitle>
+
+<CategorySelector />
+<VehicleList VehicleSelected="OnVehicleSelected" />
+<Pager />
+<VehicleDetails SelectedVehicle="SelectedVehicle" />
+
+@code {
+    [Inject] required public IDataService DataService { get; set; }
+    Vehicle? SelectedVehicle { get; set; }
+
+    protected override async Task OnInitializedAsync()
+    {
+        await DataService.GetProductListAsync();
+    }
+
+    void OnVehicleSelected(int id)
+    {
+        SelectedVehicle = DataService.Vehicles.FirstOrDefault(m => m.Id == id);
+    }
+}

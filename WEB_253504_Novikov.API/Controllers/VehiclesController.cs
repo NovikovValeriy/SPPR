@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Cors;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
@@ -15,6 +16,7 @@ namespace WEB_253504_Novikov.API.Controllers
     [Route("api/[controller]")]
     [ApiController]
     [Authorize(Policy = "admin")]
+    [EnableCors]
     public class VehiclesController : ControllerBase
     {
         //private readonly AppDbContext _context;

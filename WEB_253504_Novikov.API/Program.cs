@@ -42,6 +42,16 @@ builder.Services.AddAuthorization(opt =>
     //opt.AddPolicy("admin", p => p.RequireClaim("http://schemas.microsoft.com/ws/2008/06/identity/claims/role", "POWER-USER"));
 });
 
+builder.Services.AddCors(options =>
+{
+    options.AddPolicy("AllowSpecificOrigin", builder =>
+    {
+        builder.WithOrigins("https://localhost:7131")
+               .AllowAnyHeader()
+               .AllowAnyMethod()
+               .AllowCredentials();
+    });
+});
 
 var app = builder.Build();
 
@@ -61,6 +71,8 @@ if (app.Environment.IsDevelopment())
     app.UseSwagger();
     app.UseSwaggerUI();
 }
+
+app.UseCors("AllowSpecificOrigin");
 
 app.UseHttpsRedirection();
 

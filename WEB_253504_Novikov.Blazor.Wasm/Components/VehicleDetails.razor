@@ -1,0 +1,28 @@
+﻿@namespace WEB_253504_Novikov.Blazor.Wasm.Components
+@using WEB_253504_Novikov.Domain.Entities
+
+@if (SelectedVehicle != null)
+{
+    <div class="card m-2" style="width: 20rem; height: 26rem">
+        @{
+            if (SelectedVehicle.ImagePath == null || SelectedVehicle.ImagePath == string.Empty)
+            {
+                <img src="images/no-image.png" class="card-img-top" style="height: 12rem; object-fit: cover">
+            }
+            else
+            {
+                <img src="@SelectedVehicle.ImagePath" class="card-img-top" style="height: 12rem; object-fit: cover">
+            }
+        }
+        <div class="card-body">
+            <h5 class="card-title">@SelectedVehicle.Name</h5>
+            <p class="card-text">@SelectedVehicle.Description</p>
+            <p class="card-text">$@SelectedVehicle.Cost</p>
+        </div>
+    </div>
+}
+
+@code {
+    [Parameter]
+    public Vehicle? SelectedVehicle { get; set; }
+}
