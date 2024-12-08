@@ -20,7 +20,7 @@
 //    });
 //});
 $(document).ready(function () {
-    $(document).on('click', '.page-link', function (event) {
+    $(document).on('click', '.add-async-load', function (event) {
         event.preventDefault();
 
         var url = $(this).attr('href');
@@ -30,7 +30,6 @@ $(document).ready(function () {
             type: 'GET',
             success: function (result) {
                 $('#productListContainer').html(result);
-                console.log("хуй пизда");
             },
             error: function (xhr, status, error) {
                 console.error("Data receiving error:", error);

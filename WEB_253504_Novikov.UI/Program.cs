@@ -1,14 +1,15 @@
 ﻿using Microsoft.AspNetCore.Authentication.Cookies;
 using Microsoft.AspNetCore.Authentication.OpenIdConnect;
 using Microsoft.IdentityModel.Protocols.OpenIdConnect;
+using Serilog;
 using WEB_253504_Novikov.Domain.Entities;
 using WEB_253504_Novikov.UI.Extensions;
 using WEB_253504_Novikov.UI.HelperClasses;
+using WEB_253504_Novikov.UI.Middleware;
 using WEB_253504_Novikov.UI.Services.CartService;
 
 var builder = WebApplication.CreateBuilder(args);
 
-// Add services to the container.
 builder.Services.AddControllersWithViews();
 builder.Services.AddRazorPages();
 builder.RegisterCustomServices();
@@ -47,6 +48,13 @@ builder.Services.AddScoped<Cart>(SessionCart.GetCart);
 builder.Services.AddDistributedMemoryCache();
 builder.Services.AddSession();
 
+Log.Logger = new LoggerConfiguration()
+    .ReadFrom.Configuration(builder.Configuration)
+    .CreateLogger();
+
+builder.Host.UseSerilog();
+
+
 
 
 var app = builder.Build();
@@ -59,12 +67,16 @@ if (!app.Environment.IsDevelopment())
     app.UseHsts();
 }
 
+
+
 app.UseHttpsRedirection();
 app.UseStaticFiles();
 
 app.UseRouting();
 
 app.UseAuthorization();
+
+app.UseMiddleware<LoggingMiddleware>();
 
 app.MapControllerRoute(
     name: "default",

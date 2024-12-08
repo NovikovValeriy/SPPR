@@ -52,6 +52,7 @@ namespace WEB_253504_Novikov.UI.TagHelpers
 
             var a = new TagBuilder("a");
             a.AddCssClass("page-link");
+            if (!Admin) a.AddCssClass("add-async-load");
             a.Attributes["href"] = GeneratePageLink(page);
             //a.InnerHtml.Append(text);
 

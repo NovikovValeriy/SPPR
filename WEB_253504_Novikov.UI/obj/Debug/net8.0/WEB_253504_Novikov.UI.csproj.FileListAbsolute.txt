@@ -244,3 +244,12 @@ C:\Users\dzmitry\source\repos\5sem\SPPR\WEB_253504_Novikov\WEB_253504_Novikov.UI
 C:\Users\dzmitry\source\repos\5sem\SPPR\WEB_253504_Novikov\WEB_253504_Novikov.UI\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
 C:\Users\dzmitry\source\repos\5sem\SPPR\WEB_253504_Novikov\WEB_253504_Novikov.UI\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
 C:\Users\dzmitry\source\repos\5sem\SPPR\WEB_253504_Novikov\WEB_253504_Novikov.UI\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\dzmitry\source\repos\5sem\SPPR\WEB_253504_Novikov\WEB_253504_Novikov.UI\bin\Debug\net8.0\Serilog.dll
+C:\Users\dzmitry\source\repos\5sem\SPPR\WEB_253504_Novikov\WEB_253504_Novikov.UI\bin\Debug\net8.0\Serilog.AspNetCore.dll
+C:\Users\dzmitry\source\repos\5sem\SPPR\WEB_253504_Novikov\WEB_253504_Novikov.UI\bin\Debug\net8.0\Serilog.Extensions.Hosting.dll
+C:\Users\dzmitry\source\repos\5sem\SPPR\WEB_253504_Novikov\WEB_253504_Novikov.UI\bin\Debug\net8.0\Serilog.Extensions.Logging.dll
+C:\Users\dzmitry\source\repos\5sem\SPPR\WEB_253504_Novikov\WEB_253504_Novikov.UI\bin\Debug\net8.0\Serilog.Formatting.Compact.dll
+C:\Users\dzmitry\source\repos\5sem\SPPR\WEB_253504_Novikov\WEB_253504_Novikov.UI\bin\Debug\net8.0\Serilog.Settings.Configuration.dll
+C:\Users\dzmitry\source\repos\5sem\SPPR\WEB_253504_Novikov\WEB_253504_Novikov.UI\bin\Debug\net8.0\Serilog.Sinks.Console.dll
+C:\Users\dzmitry\source\repos\5sem\SPPR\WEB_253504_Novikov\WEB_253504_Novikov.UI\bin\Debug\net8.0\Serilog.Sinks.Debug.dll
+C:\Users\dzmitry\source\repos\5sem\SPPR\WEB_253504_Novikov\WEB_253504_Novikov.UI\bin\Debug\net8.0\Serilog.Sinks.File.dll
