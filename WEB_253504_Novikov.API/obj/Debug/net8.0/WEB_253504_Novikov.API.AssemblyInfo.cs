@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("WEB_253504_Novikov.API")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4a2bbdce06c3e04f091579071b74d62f02d91e38")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c08424e4cffd3adf3675f739dcdfc994d1ff510f")]
 [assembly: System.Reflection.AssemblyProductAttribute("WEB_253504_Novikov.API")]
 [assembly: System.Reflection.AssemblyTitleAttribute("WEB_253504_Novikov.API")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
